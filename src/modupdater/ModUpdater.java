@@ -202,16 +202,24 @@ public class ModUpdater{
                     continue;
                 }
 
+                String content = tryText(
+                    name + "/" + gm.getString("default_branch") + "/README.md",
+                    name + "/" + gm.getString("default_branch") + "/readme.md",
+                    name + "/" + gm.getString("default_branch") + "/README"
+                );
+
                 obj.add("repo", name);
                 obj.add("internalName", internalName);
                 obj.add("name", metaName);
                 obj.add("author", Strings.stripColors(modj.getString("author", gm.get("owner").get("login").toString())));
                 obj.add("lastUpdated", gm.get("pushed_at"));
+                obj.add("createdAt", gm.get("created_at"));
                 obj.add("stars", gm.get("stargazers_count"));
                 obj.add("minGameVersion", version);
                 obj.add("hasScripts", Jval.valueOf(lang.equals("JavaScript")));
                 obj.add("hasJava", Jval.valueOf(modj.getBool("java", false) || javaLangs.contains(lang)));
                 obj.add("description", Strings.stripColors(modj.getString("description", "No description provided.")));
+                obj.add("body", content);
                 if(modj.getBool("iosCompatible", false)) obj.put("iosCompatible", true);
                 if(modj.getBool("legacyCompatible", false)) obj.put("legacyCompatible", true);
                 array.asArray().add(obj);
@@ -265,6 +273,17 @@ public class ModUpdater{
             Log.info("&lcSending search query. Status: @; Queries remaining: @/@", response.getStatus(), response.getHeader("X-RateLimit-Remaining"), response.getHeader("X-RateLimit-Limit"));
             cons.get(Jval.read(response.getResultAsString()));
         });
+    }
+
+    String tryText(String... queries) {
+        String[] result = {null};
+        for (String str : queries) {
+            Http.get("https://raw.githubusercontent.com/" + str)
+            .timeout(10000)
+            .error(this::simpleError)
+            .block(out -> result[0] = out.getResultAsString());
+        }
+        return result[0];
     }
 
     void simpleError(Throwable error){
