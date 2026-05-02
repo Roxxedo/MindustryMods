@@ -281,7 +281,13 @@ public class ModUpdater{
             Http.get("https://raw.githubusercontent.com/" + str)
             .timeout(10000)
             .error(this::simpleError)
-            .block(out -> result[0] = out.getResultAsString());
+            .block(out ->
+                out.getResultAsString()
+                    .codePoints()
+                    .limit(5000)
+                    .collect(StringBuilder::new, StringBuilder::appendCodePoint, StringBuilder::append)
+                    .toString()
+            );
         }
         return result[0];
     }
