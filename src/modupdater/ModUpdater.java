@@ -283,10 +283,8 @@ public class ModUpdater{
             .error(this::simpleError)
             .block(out ->
                 out.getResultAsString()
-                    .codePoints()
-                    .limit(5000)
-                    .collect(StringBuilder::new, StringBuilder::appendCodePoint, StringBuilder::append)
-                    .toString()
+                    .replace("\uFEFF", "") 
+                    .replaceAll("[^\\p{L}\\p{N}\\p{P}\\p{S}\\p{Z}\\n\\r\\t]", "")
             );
         }
         return result[0];
