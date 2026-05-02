@@ -282,7 +282,7 @@ public class ModUpdater{
             .timeout(10000)
             .error(this::simpleError)
             .block(out ->
-                out.getResultAsString()
+                result[0] = out.getResultAsString()
                     .replace("\uFEFF", "") 
                     .replaceAll("[^\\p{L}\\p{N}\\p{P}\\p{S}\\p{Z}\\n\\r\\t]", "")
             );
