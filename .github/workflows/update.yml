@@ -41,8 +41,8 @@ jobs:
           git config --global user.email "actions@github.com"
           git config --global user.name "Github Actions"
 
-          git add mods.json
-          git add icons/*
+          git add data/mods.json
+          git add data/icons/*
 
           git commit --allow-empty -m "[auto-update]"
           git push https://Roxxedo:${{ secrets.API_TOKEN_GITHUB }}@github.com/Roxxedo/MindustryMods
