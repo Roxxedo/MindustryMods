@@ -1,0 +1,1426 @@
+[
+    {
+        "id": "v157.4",
+        "name": "v8 Build 157.4",
+        "prerelease": false,
+        "body": "- Fixed spawn bullet instruction causing save issues\r\n- Fixed sensor name conflict with bullet properties\r\n- Fixed minor issues with guardian hints & initial arc research in Serpulo campaign\r\n- Made players respawn instantly upon joining a server, even when the host paused it\r\n- Added a world logic spatial query instruction\r\n- Made \"core is under attack\" warning clickable; pans to last attacked core\r\n- Minor map submission fixes",
+        "assets": [
+            {
+                "name": "Mindustry.jar",
+                "size": 84587299,
+                "download_count": 6731,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v157.4/Mindustry.jar",
+                "created_at": "2026-04-22T01:27:33Z",
+                "updated_at": "2026-04-22T01:27:37Z"
+            },
+            {
+                "name": "server-release.jar",
+                "size": 16649913,
+                "download_count": 1326,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v157.4/server-release.jar",
+                "created_at": "2026-04-22T01:27:39Z",
+                "updated_at": "2026-04-22T01:27:40Z"
+            },
+            {
+                "name": "dependencies.jar",
+                "size": 11653631,
+                "download_count": 1210,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v157.4/dependencies.jar",
+                "created_at": "2026-04-22T01:27:41Z",
+                "updated_at": "2026-04-22T01:27:43Z"
+            }
+        ],
+        "created_at": "2026-04-22T01:24:38Z",
+        "updated_at": "2026-04-22T01:27:43Z"
+    },
+    {
+        "id": "v157.3",
+        "name": "v8 Build 157.3",
+        "prerelease": false,
+        "body": "- Added a processor instruction for spawning bullets\r\n- Added sensors for player ping text/position\r\n- Added a global steam ban system for known griefers\r\n- Fixed Horizon units not being able to circle large blocks\r\n- Fixed bullets fired from core units while moving backwards lasting longer",
+        "assets": [
+            {
+                "name": "Mindustry.jar",
+                "size": 84583655,
+                "download_count": 2309,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v157.3/Mindustry.jar",
+                "created_at": "2026-04-18T01:06:01Z",
+                "updated_at": "2026-04-18T01:06:03Z"
+            },
+            {
+                "name": "server-release.jar",
+                "size": 16639589,
+                "download_count": 484,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v157.3/server-release.jar",
+                "created_at": "2026-04-18T01:06:04Z",
+                "updated_at": "2026-04-18T01:06:05Z"
+            },
+            {
+                "name": "dependencies.jar",
+                "size": 11641064,
+                "download_count": 447,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v157.3/dependencies.jar",
+                "created_at": "2026-04-18T01:06:06Z",
+                "updated_at": "2026-04-18T01:06:06Z"
+            }
+        ],
+        "created_at": "2026-04-18T01:03:17Z",
+        "updated_at": "2026-04-18T01:06:07Z"
+    },
+    {
+        "id": "v157.2",
+        "name": "v8 Build 157.2",
+        "prerelease": false,
+        "body": "- Fixed waves spawning in Ground Zero before the tutorial is completed\r\n- Fixed incorrect sounds being spammed in a specific submitted sector\r\n- Translation updates",
+        "assets": [
+            {
+                "name": "Mindustry.jar",
+                "size": 84565544,
+                "download_count": 1396,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v157.2/Mindustry.jar",
+                "created_at": "2026-04-15T17:29:11Z",
+                "updated_at": "2026-04-15T17:29:13Z"
+            },
+            {
+                "name": "server-release.jar",
+                "size": 16627569,
+                "download_count": 309,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v157.2/server-release.jar",
+                "created_at": "2026-04-15T17:29:14Z",
+                "updated_at": "2026-04-15T17:29:15Z"
+            },
+            {
+                "name": "dependencies.jar",
+                "size": 11624639,
+                "download_count": 257,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v157.2/dependencies.jar",
+                "created_at": "2026-04-15T17:29:16Z",
+                "updated_at": "2026-04-15T17:29:17Z"
+            }
+        ],
+        "created_at": "2026-04-15T17:26:21Z",
+        "updated_at": "2026-04-15T17:29:17Z"
+    },
+    {
+        "id": "v157.1",
+        "name": "v8 Build 157.1",
+        "prerelease": false,
+        "body": "After a long wait, v8 has finally been released. For those coming from v7, here's a brief summary of the major changes:\r\n\r\n- A complete overhaul of the Serpulo campaign maps, along with replacement of all procedural base sectors\r\n- Difficulty modifiers for the campaign\r\n- Many unit control improvements, including a new stance and group system\r\n- New ammo types for Erekir turrets\r\n- Countless additions to world processor scripting in maps\r\n- A data patch system to change stats, weapons and behavior of blocks or units per-map\r\n- Rendering performance optimizations\r\n- New decorative metal & colored blocks\r\n- Various QoL features, like a detachable camera, pinging locations, viewing other player's build plans, and more\r\n- Completely reworked most sound effects, as well as the audio engine\r\n\r\nNote that this release does *not* include any Neoplasm-related content; that will be worked on in v9.\r\n\r\nChanges since Build 157:\r\n\r\n- Fixed empty packets causing UDP errors and server disconnects\r\n- Fixed naval units not pathfinding around destructible blocks on water properly\r\n- Fixed some minor JSON and data patcher bugs\r\n- Made core unit projectiles inherit unit speed as before, but keep range the same\r\n- Re-ordered some tech tree requirements in Serpulo\r\n- Reverted changes related to display scaling on Windows",
+        "assets": [
+            {
+                "name": "Mindustry.jar",
+                "size": 84579673,
+                "download_count": 1501,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v157.1/Mindustry.jar",
+                "created_at": "2026-04-14T21:13:45Z",
+                "updated_at": "2026-04-14T21:13:49Z"
+            },
+            {
+                "name": "server-release.jar",
+                "size": 16628686,
+                "download_count": 149,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v157.1/server-release.jar",
+                "created_at": "2026-04-14T21:13:50Z",
+                "updated_at": "2026-04-14T21:13:51Z"
+            },
+            {
+                "name": "dependencies.jar",
+                "size": 11624595,
+                "download_count": 128,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v157.1/dependencies.jar",
+                "created_at": "2026-04-14T21:13:53Z",
+                "updated_at": "2026-04-14T21:13:53Z"
+            }
+        ],
+        "created_at": "2026-04-14T21:10:59Z",
+        "updated_at": "2026-04-14T21:13:53Z"
+    },
+    {
+        "id": "v157",
+        "name": "v8 Build 157 - Beta",
+        "prerelease": true,
+        "body": "If all goes well, this will be the final version before v8 leaves beta. After build 157 is deployed, I will wait a few days to fix any major bugs present, then release 157.1 as a \"full\" non-beta version.\r\n\r\n- Changed desktop fullscreen implementation - it should always use borderless fullscreen now\r\n- Removed redundant \"borderless fullscreen\" setting\r\n- Added the Javascript console to mobile (it must be enabled in the settings first)\r\n- Made glowing red wire blocks turn dark when nearby cores are destroyed or the sector is captured on Serpulo\r\n- Added a sector migration warning to users upgrading from build 146\r\n- Added descriptions to sectors that were missing them\r\n- Changed layout of megabase on Serpulo; added a map submission for the center\r\n- Made several Serpulo sectors hidden\r\n- Fixed various issues relating to window scaling on Windows\r\n- Fixed ambient sounds restarting when paused\r\n- Fixed location pings not being filter-able on servers\r\n- Fixed remote units exploding near walls on non-headless servers under certain conditions\r\n- Fixed player units teleporting when controlled under specific circumstances",
+        "assets": [
+            {
+                "name": "dependencies.jar",
+                "size": 11622768,
+                "download_count": 1323,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v157/dependencies.jar",
+                "created_at": "2026-04-09T02:00:49Z",
+                "updated_at": "2026-04-09T02:01:11Z"
+            },
+            {
+                "name": "server-release.jar",
+                "size": 16627234,
+                "download_count": 564,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v157/server-release.jar",
+                "created_at": "2026-04-09T02:00:57Z",
+                "updated_at": "2026-04-09T02:01:26Z"
+            },
+            {
+                "name": "Mindustry.jar",
+                "size": 84540141,
+                "download_count": 2702,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v157/Mindustry.jar",
+                "created_at": "2026-04-09T02:01:54Z",
+                "updated_at": "2026-04-09T02:02:46Z"
+            }
+        ],
+        "created_at": "2026-04-09T01:46:56Z",
+        "updated_at": "2026-04-09T02:02:46Z"
+    },
+    {
+        "id": "v156.2",
+        "name": "v8 Build 156.2 - Beta",
+        "prerelease": true,
+        "body": "- Blacklisted older versions of the mod 'scheme-size' due to very common startup crashes\r\n- Updated Littoral Shipyard sector submission\r\n- Fixed holding of payload pickup/drop key causing rate limit issues on servers\r\n- Fixed status effects not scaling correctly in UI\r\n- Allowed 'occasional' UDP errors on clients, which may lead to a more stable experience when low-priority packets do not arrive correctly",
+        "assets": [
+            {
+                "name": "Mindustry.jar",
+                "size": 84151616,
+                "download_count": 4220,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v156.2/Mindustry.jar",
+                "created_at": "2026-03-27T17:13:00Z",
+                "updated_at": "2026-03-27T17:13:03Z"
+            },
+            {
+                "name": "server-release.jar",
+                "size": 16244772,
+                "download_count": 704,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v156.2/server-release.jar",
+                "created_at": "2026-03-27T17:13:04Z",
+                "updated_at": "2026-03-27T17:13:04Z"
+            },
+            {
+                "name": "dependencies.jar",
+                "size": 11608901,
+                "download_count": 763,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v156.2/dependencies.jar",
+                "created_at": "2026-03-27T17:13:05Z",
+                "updated_at": "2026-03-27T17:13:06Z"
+            }
+        ],
+        "created_at": "2026-03-27T17:10:15Z",
+        "updated_at": "2026-03-27T17:13:06Z"
+    },
+    {
+        "id": "v156.1",
+        "name": "v8 Build 156.1 - Beta",
+        "prerelease": true,
+        "body": "- Fixed server player data being wiped on startup\r\n- Fixed \"disable pausing\" rule not working properly on mobile\r\n- Fixed some minor transparency bugs with other player's build plans\r\n- Fixed ping location on minimap being offset on some phones\r\n- Fixed maps not being sorted properly\r\n- Fixed world processors and related blocks being healed by menders\r\n- Locked Pyratite behind Cratered Battlegrounds\r\n- Updated a few sector submissions\r\n- Minor optimizations to in-world schematic plan rendering",
+        "assets": [
+            {
+                "name": "Mindustry.jar",
+                "size": 84143021,
+                "download_count": 881,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v156.1/Mindustry.jar",
+                "created_at": "2026-03-25T15:49:18Z",
+                "updated_at": "2026-03-25T15:49:20Z"
+            },
+            {
+                "name": "server-release.jar",
+                "size": 16243910,
+                "download_count": 173,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v156.1/server-release.jar",
+                "created_at": "2026-03-25T15:49:21Z",
+                "updated_at": "2026-03-25T15:49:22Z"
+            },
+            {
+                "name": "dependencies.jar",
+                "size": 11607290,
+                "download_count": 136,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v156.1/dependencies.jar",
+                "created_at": "2026-03-25T15:49:23Z",
+                "updated_at": "2026-03-25T15:49:24Z"
+            }
+        ],
+        "created_at": "2026-03-25T15:46:34Z",
+        "updated_at": "2026-03-25T15:49:24Z"
+    },
+    {
+        "id": "v156",
+        "name": "v8 Build 156 - Beta",
+        "prerelease": true,
+        "body": "- Fixed schematics having a blank thumbnail on Steam\r\n- Fixed wait time not saving in processors\r\n- Fixed many various data patcher bugs\r\n- Fixed a server memory usage exploit\r\n- Fixed Japanese font not displaying correctly\r\n- Fixed many languages (e.g. Chinese) not being displayed in monospace font\r\n- Fixed some UI layout/overlap issues on mobile\r\n- Optimized build plan rendering\r\n- Updated a large amount of Serpulo sector submissions\r\n- Enabled animated shields and planet atmosphere on Android by default\r\n- Made boosting a stance instead of a command\r\n- Improved filtering options for map UI\r\n- Added a \"hold position\" stance for repair/rebuild units\r\n- Added a new 3x3 canvas block\r\n- Added canvas image import/export options\r\n- Added a button for pausing building on mobile\r\n- Added a 'ping location' button (P on desktop, triple tap screen/double tap full-screen minimap on mobile)\r\n- Added sync of other player's build queues\r\n- Added a setting for adding padding to the top/bottom of the screen on mobile\r\n- Added a unit factory activation delay rule, enabled by default in the Serpulo campaign\r\n- Added a variant of labels for plugins that use an ID, to prevent flickering\r\n- Added Littoral Shipyard sector\r\n- Added an additional basic gameplay tutorial to Frozen Forest",
+        "assets": [
+            {
+                "name": "Mindustry.jar",
+                "size": 83878114,
+                "download_count": 545,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v156/Mindustry.jar",
+                "created_at": "2026-03-23T19:47:22Z",
+                "updated_at": "2026-03-23T19:47:25Z"
+            },
+            {
+                "name": "server-release.jar",
+                "size": 15980949,
+                "download_count": 261,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v156/server-release.jar",
+                "created_at": "2026-03-23T19:47:26Z",
+                "updated_at": "2026-03-23T19:47:26Z"
+            },
+            {
+                "name": "dependencies.jar",
+                "size": 11605627,
+                "download_count": 1393,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v156/dependencies.jar",
+                "created_at": "2026-03-23T19:47:27Z",
+                "updated_at": "2026-03-23T19:47:28Z"
+            }
+        ],
+        "created_at": "2026-03-23T19:44:23Z",
+        "updated_at": "2026-03-23T19:47:28Z"
+    },
+    {
+        "id": "v155.4",
+        "name": "v8 Build 155.4 - Beta",
+        "prerelease": true,
+        "body": "This release reverts the upgrade from SDL2 to SDL3. SDL3 had too many bugs to be usable - R/B channel color swaps, overly bright windows, broken scaling, crashing on wayland, etc.\r\n\r\nThese issues should now be fixed again. This also means that the fullscreen/borderless window options have been returned to their pre-155 state.\r\n\r\nOther patch notes:\r\n\r\n- Fixed multiplayer not working on Steam - both the host and the client will need to update to connect properly\r\n- Fixed core database search being broken\r\n- Fixed cyanogen synthesizer using less graphite than expected\r\n- Fixed cross-planet launches being possible in specific scenarios\r\n- Fixed double-clicking a sector bypassing launch checks\r\n- Fixed more bugs with bullet collision logic\r\n- Minor adjustments to salvo copper ammo\r\n- 32-bit Windows builds now display an error when launching, and will be discontinued in the future entirely\r\n\r\n",
+        "assets": [
+            {
+                "name": "Mindustry.jar",
+                "size": 80412995,
+                "download_count": 6377,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v155.4/Mindustry.jar",
+                "created_at": "2026-02-16T18:18:03Z",
+                "updated_at": "2026-02-16T18:18:05Z"
+            },
+            {
+                "name": "server-release.jar",
+                "size": 14447182,
+                "download_count": 1679,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v155.4/server-release.jar",
+                "created_at": "2026-02-16T18:18:06Z",
+                "updated_at": "2026-02-16T18:18:07Z"
+            },
+            {
+                "name": "dependencies.jar",
+                "size": 11529020,
+                "download_count": 399,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v155.4/dependencies.jar",
+                "created_at": "2026-03-20T16:36:51Z",
+                "updated_at": "2026-03-20T16:36:59Z"
+            }
+        ],
+        "created_at": "2026-02-16T18:14:56Z",
+        "updated_at": "2026-03-20T16:36:59Z"
+    },
+    {
+        "id": "v155.3",
+        "name": "v8 Build 155.3 - Beta",
+        "prerelease": true,
+        "body": "- Fixed scrolling not rotating blocks/schematics on certain systems\r\n- Fixed R and B channels of game window being swapped on some systems\r\n- Fixed certain bullets not triggering their despawn actions\r\n- Fixed directional shields forcing units to \"stick\" to them\r\n- Fixed mods with incorrect content initialization code crashing the core database\r\n- Fixed a deprecation warning when launching the game with Java 25+\r\n- Force-enabled the x11 backend on Wayland systems with NVIDIA drivers in order to fix a crash (see issue #11657)",
+        "assets": [
+            {
+                "name": "Mindustry.jar",
+                "size": 89286073,
+                "download_count": 1512,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v155.3/Mindustry.jar",
+                "created_at": "2026-02-13T16:42:49Z",
+                "updated_at": "2026-02-13T16:42:54Z"
+            },
+            {
+                "name": "server-release.jar",
+                "size": 14444556,
+                "download_count": 255,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v155.3/server-release.jar",
+                "created_at": "2026-02-13T16:42:55Z",
+                "updated_at": "2026-02-13T16:42:56Z"
+            }
+        ],
+        "created_at": "2026-02-13T16:39:49Z",
+        "updated_at": "2026-02-13T16:42:56Z"
+    },
+    {
+        "id": "v155.2",
+        "name": "v8 Build 155.2 - Beta",
+        "prerelease": true,
+        "body": "- Fixed unloaders backflowing into containers\r\n- Fixed scrolling not working on certain Linux desktops\r\n- Fixed Precept dealing 10 damage instead of 120\r\n- Fixed hitscan line projectiles not spawning effects/fire/etc at hit position\r\n- Added various new stats to the database\r\n\r\nThere is a known issue with the window not showing up on certain Linux desktops using Wayland; see https://github.com/Anuken/Mindustry/issues/11657.",
+        "assets": [
+            {
+                "name": "Mindustry.jar",
+                "size": 89302480,
+                "download_count": 859,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v155.2/Mindustry.jar",
+                "created_at": "2026-02-12T01:56:20Z",
+                "updated_at": "2026-02-12T01:56:47Z"
+            },
+            {
+                "name": "server-release.jar",
+                "size": 14444270,
+                "download_count": 152,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v155.2/server-release.jar",
+                "created_at": "2026-02-12T01:56:29Z",
+                "updated_at": "2026-02-12T01:56:36Z"
+            }
+        ],
+        "created_at": "2026-02-12T01:52:48Z",
+        "updated_at": "2026-02-12T01:56:47Z"
+    },
+    {
+        "id": "v155.1",
+        "name": "v8 Build 155.1 - Beta",
+        "prerelease": true,
+        "body": "- Fixed Fortress unit not being able to shoot when commanded\r\n- Fixed some turrets erroneously firing multiple times per shot\r\n- Fixed loading screen retaining keyboard focus when joining some servers, leading to strange input behavior\r\n- Fixed turrets displaying incorrect status when placed with no ammo\r\n- Fixed unit count buttons resetting when the commanded unit count changes\r\n- Fixed heat crafters having infinite output storage capacity\r\n- Changed missile explosion visuals based on whether they exploded on a target or were shot down\r\n- On desktop, the 'fullscreen' option now uses borderless fullscreen; the separate 'borderless fullscreen' option has been removed\r\n- Potentially fixed the screen getting bright in fullscreen on desktop (this may need to be fixed upstream in SDL 3.4.x)",
+        "assets": [
+            {
+                "name": "Mindustry.jar",
+                "size": 89271191,
+                "download_count": 717,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v155.1/Mindustry.jar",
+                "created_at": "2026-02-10T16:09:34Z",
+                "updated_at": "2026-02-10T16:09:36Z"
+            },
+            {
+                "name": "server-release.jar",
+                "size": 14439197,
+                "download_count": 161,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v155.1/server-release.jar",
+                "created_at": "2026-02-10T16:09:38Z",
+                "updated_at": "2026-02-10T16:09:38Z"
+            }
+        ],
+        "created_at": "2026-02-10T16:06:38Z",
+        "updated_at": "2026-02-10T16:09:38Z"
+    },
+    {
+        "id": "v155",
+        "name": "v8 Build 155 - Beta",
+        "prerelease": true,
+        "body": "- Updated bundled Java version to Java 25 on desktop\r\n- Upgraded desktop backend from SDL2 to SDL3 - this may cause new issues, report them if you see any\r\n- Added support for dragging save or map files into the game window on desktop\r\n- Made key names in the keybind dialog reflect the keyboard layout on desktop\r\n- Fixed text input not working under certain circumstances on Android\r\n- Made plasma bores face the swipe direction again on mobile\r\n- Made displays allow other displays in `draw image`\r\n- Added sub-categories in core database\r\n- Added support for overwriting sectors in JSON mods\r\n- Added a hint for content affected by data patches\r\n- Added credits for map submissions to database (will be moved to a dedicated credits section later)\r\n- Units are no longer removed from the command queue when commanded by other players\r\n- Many various balancing changes for Serpulo and Erekir content\r\n- Added graphite as a wall ore\r\n- Made Erekir heat-based blocks display maximum possible efficiency as 100% as opposed to numbers above 100%\r\n- Made flying units in waves ignore empty/inactive blocks when finding a target\r\n- Made T2+ tanks instantly kill beam node blocks on contact\r\n- Fixed the core landing on core zone locations after sector loss in the campaign (you may need to fully abandon a sector with \"clear sector after loss\" enabled to fix this on existing saves)\r\n- Made Interplanetary Accelerator accept resources to launch with\r\n- Moved Cruxscape and Geothermal Stronghold off of the tech tree\r\n- Made loadout schematics get built upon landing on Serpulo, matching Erekir\r\n- Renamed Sea Port map submission\r\n- Added the Fallen Vessel sector submission\r\n- Added a hint for core zone usage in the campaign\r\n- Added another enemy core to the Fungal Pass sector\r\n- Added a new Extraction Outpost submission\r\n- Changed tech tree requirements in order to have Tar Fields unlock fewer entries\r\n- Renamed Coastline, and replaced it with a new sector submission\r\n- Replaced Testing Grounds with a different submission, and moved the original one to a hidden sector\r\n- Many other updates to sector submissions",
+        "assets": [
+            {
+                "name": "Mindustry.jar",
+                "size": 89232650,
+                "download_count": 1494,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v155/Mindustry.jar",
+                "created_at": "2026-02-09T03:44:56Z",
+                "updated_at": "2026-02-09T03:44:59Z"
+            },
+            {
+                "name": "server-release.jar",
+                "size": 14436526,
+                "download_count": 280,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v155/server-release.jar",
+                "created_at": "2026-02-09T03:45:01Z",
+                "updated_at": "2026-02-09T03:45:02Z"
+            }
+        ],
+        "created_at": "2026-02-09T03:41:53Z",
+        "updated_at": "2026-02-09T03:45:02Z"
+    },
+    {
+        "id": "v154.3",
+        "name": "v8 Build 154.3 - Beta",
+        "prerelease": true,
+        "body": "- Fixed a major data patcher issue that was causing re-initialization and duplication of content\r\n- Fixed core landing sound playing regardless of volume settings\r\n- Fixed certain units (Flare, Horizon) being able to shoot even when technically not moving\r\n- Reverted Flare silicon cost increase, but added silicon to the block build cost\r\n- Made mods skip texture packing if no new textures are present\r\n- Added a 'iosCompatible' flag for script mods that work on iOS (experimental)\r\n- Added a logic unit command for deconstruction; this is disabled by default in the rules\r\n- Increased strength of coolant in Duo and Hail",
+        "assets": [
+            {
+                "name": "Mindustry.jar",
+                "size": 79795238,
+                "download_count": 13126,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v154.3/Mindustry.jar",
+                "created_at": "2025-12-21T15:15:58Z",
+                "updated_at": "2025-12-21T15:16:01Z"
+            },
+            {
+                "name": "server-release.jar",
+                "size": 13944966,
+                "download_count": 2143,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v154.3/server-release.jar",
+                "created_at": "2025-12-21T15:16:02Z",
+                "updated_at": "2025-12-21T15:16:03Z"
+            }
+        ],
+        "created_at": "2025-12-21T15:12:58Z",
+        "updated_at": "2025-12-21T15:16:03Z"
+    },
+    {
+        "id": "v154.2",
+        "name": "v8 Build 154.2 - Beta",
+        "prerelease": true,
+        "body": "Note: 154.1 was skipped, as that version only had some internal deployment fixes for Android/iOS that did not affect other platforms.\r\n\r\n- Nerfed Flare damage and range significantly\r\n- Increased liquid capacity of many blocks based on consumption rate\r\n- Fixed a possible crash\r\n- Increased Java mod minGameVersion due to new sound effect name changes\r\n- Removed some unnecessary debug logging during map loads",
+        "assets": [
+            {
+                "name": "Mindustry.jar",
+                "size": 79793092,
+                "download_count": 1937,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v154.2/Mindustry.jar",
+                "created_at": "2025-12-18T00:14:42Z",
+                "updated_at": "2025-12-18T00:14:44Z"
+            },
+            {
+                "name": "server-release.jar",
+                "size": 13943433,
+                "download_count": 343,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v154.2/server-release.jar",
+                "created_at": "2025-12-18T00:14:45Z",
+                "updated_at": "2025-12-18T00:14:46Z"
+            }
+        ],
+        "created_at": "2025-12-18T00:11:48Z",
+        "updated_at": "2025-12-18T00:14:46Z"
+    },
+    {
+        "id": "v154",
+        "name": "v8 Build 154 - Beta",
+        "prerelease": true,
+        "body": "This release includes a complete sound rework for most units and blocks, with a focus on Serpulo content. The audio engine has also been improved to handle more simultaneous sounds without cutting off playback.\r\n\r\nFull changelog:\r\n\r\n- Made Beta's guns no longer rotate\r\n- Improved Scepter's secondary weapon visuals and damage (Contributed by @EggleEgg)\r\n- Made Ripple fire half as frequently with ~2x the damage per shot\r\n- Removed Flare spawners from Omura (they were annoying and useless for its tech tier)\r\n- New Flare attack patterns and AI, with a return to older v5 circling behavior - surprisingly, about 85% of the community voted to approve this change in the Discord\r\n- Increased shale's oil production attribute value\r\n- Reduced research costs for higher tier units on Serpulo\r\n- Removed the background wave simulation system - sectors with waves that are not being played on will be frozen in time, and will not produce items\r\n- Disabled Serpulo sector invasions by default - this system will likely be removed or reworked entirely in the future\r\n- Enabled core incineration by default\r\n- Increased active sound cap (32 -> 100)\r\n- Limited sounds to a maximum of ~6 per type (one sound can't drown out all the others)\r\n- Complete rework of most sounds in the game, with a focus on Serpulo units and turrets\r\n- Added a large amount of new sounds to blocks/units/functions that were lacking them\r\n- Added movement sounds for most units\r\n- Renamed most sound effects - while this will break mods and logic, it was necessary, as the old sound naming scheme was an incomprehensible mess\r\n- Fixed the game disabling other audio sources on startup on iOS\r\n- Many minor bugfixes, crash fixes and improvements for the data patch system\r\n- Fixed logic insert line button not working properly\r\n- Fixed the window not being sized to the screen in some cases on iOS\r\n- Fixed Intel GPUs not being detected properly on Windows",
+        "assets": [
+            {
+                "name": "Mindustry.jar",
+                "size": 79789816,
+                "download_count": 2032,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v154/Mindustry.jar",
+                "created_at": "2025-12-16T23:05:40Z",
+                "updated_at": "2025-12-16T23:05:42Z"
+            },
+            {
+                "name": "server-release.jar",
+                "size": 13943370,
+                "download_count": 416,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v154/server-release.jar",
+                "created_at": "2025-12-16T23:05:43Z",
+                "updated_at": "2025-12-16T23:05:44Z"
+            }
+        ],
+        "created_at": "2025-12-16T23:02:38Z",
+        "updated_at": "2025-12-16T23:05:44Z"
+    },
+    {
+        "id": "v153",
+        "name": "v8 Build 153 - Beta",
+        "prerelease": true,
+        "body": "The highlight of this release is a new system for patching stats of content on servers and maps. This system will allow players to customize health, requirements, recipes, weapons, bullets, etc. individually. This is *not* a replacement for modding, as it does not allow adding new assets or content, but it does allow making major changes to the way the game is played and balanced.\r\n\r\nRead more about it here: https://mindustrygame.github.io/wiki/contentpatches/\r\n\r\n- Fixed certain campaign maps always resetting after sector loss\r\n- Fixed unit assembler clogging in certain conditions\r\n- Fixed zip file exports on Android being corrupted when overwriting an existing file\r\n- Fixed overlay floors under liquids not being removed when placed over in the editor\r\n- Fixed Sublimate not firing correctly at low liquid flow rates\r\n- Fixed planet normals displaying incorrectly on OpenGL 2 devices\r\n- Fixed default planet mesh displaying as a mess in mods\r\n- Potentially fixed Android ANRs due to sprite packing occurring on main thread\r\n- Updated many different campaign submissions for Serpulo\r\n- Added a sector attempt counter\r\n- Added a button to insert instructions between lines in the logic editor\r\n- Added the core database button to the pause menu on mobile\r\n- Made rotation of certain buildings stay constant when dragged as a line\r\n- Made iOS version use MetalANGLE for graphics, increasing performance and allowing FPS values above 60 on some devices (this may be buggy, please report crashes/graphics issues)\r\n- Buffed Quasar and Pulsar units\r\n- The Thorium Reactor block now outputs heat (for mixtech)",
+        "assets": [
+            {
+                "name": "Mindustry.jar",
+                "size": 75807478,
+                "download_count": 10408,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v153/Mindustry.jar",
+                "created_at": "2025-10-30T17:52:28Z",
+                "updated_at": "2025-10-30T17:52:30Z"
+            },
+            {
+                "name": "server-release.jar",
+                "size": 13660188,
+                "download_count": 1838,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v153/server-release.jar",
+                "created_at": "2025-10-30T17:52:30Z",
+                "updated_at": "2025-10-30T17:52:31Z"
+            }
+        ],
+        "created_at": "2025-10-30T17:49:23Z",
+        "updated_at": "2025-10-30T17:52:31Z"
+    },
+    {
+        "id": "v152.2",
+        "name": "v8 Build 152.2 - Beta",
+        "prerelease": true,
+        "body": "- Fixed a few more campaign map submissions\r\n- Added extra borders to make display cutout areas look slightly less awful on Android\r\n- Added a difficulty modifier to clear Serpulo sectors upon loss instead of carrying over buildings from the previous attempt\r\n",
+        "assets": [
+            {
+                "name": "Mindustry.jar",
+                "size": 75276003,
+                "download_count": 7632,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v152.2/Mindustry.jar",
+                "created_at": "2025-09-29T12:59:16Z",
+                "updated_at": "2025-09-29T12:59:18Z"
+            },
+            {
+                "name": "server-release.jar",
+                "size": 13311400,
+                "download_count": 1351,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v152.2/server-release.jar",
+                "created_at": "2025-09-29T12:59:19Z",
+                "updated_at": "2025-09-29T12:59:20Z"
+            }
+        ],
+        "created_at": "2025-09-29T12:56:21Z",
+        "updated_at": "2025-09-29T12:59:20Z"
+    },
+    {
+        "id": "v152.1",
+        "name": "v8 Build 152.1 - Beta",
+        "prerelease": true,
+        "body": "- Fixed turrets not being rotated clientside when placed on servers\r\n- Fixed turrets not rotating the correct way during construction\r\n- Fixed derelict structures not functioning properly after being repaired\r\n- Fixed liquid junctions not being place-able on edges of deep water\r\n- Fixed infinite items being enabled in a hidden sector",
+        "assets": [
+            {
+                "name": "Mindustry.jar",
+                "size": 75260353,
+                "download_count": 591,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v152.1/Mindustry.jar",
+                "created_at": "2025-09-28T14:59:10Z",
+                "updated_at": "2025-09-28T14:59:13Z"
+            },
+            {
+                "name": "server-release.jar",
+                "size": 13296570,
+                "download_count": 122,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v152.1/server-release.jar",
+                "created_at": "2025-09-28T14:59:14Z",
+                "updated_at": "2025-09-28T14:59:15Z"
+            }
+        ],
+        "created_at": "2025-09-28T14:56:13Z",
+        "updated_at": "2025-09-28T14:59:15Z"
+    },
+    {
+        "id": "v152",
+        "name": "v8 Build 152 - Beta",
+        "prerelease": true,
+        "body": "- Fixed bound unit not saving in logic blocks\r\n- Made water extractor less effective on charred stone tiles\r\n- Made turrets rotate-able during placement\r\n- Made Mindustry use a OpenGL 2 context on Intel GPUs as a possible workaround for a driver memory corruption bug (see issue #11041)\r\n- Made remove ore/wall 'blocks' always show up in in-game editor results\r\n- Disabled shooting in the editor\r\n- Added buttons for toggling map layers in the editor\r\n- Many various community-submitted Erekir unit balancing adjustments (see PR #11184)\r\n- On Erekir, launch location will now be selected based on items required, to reduce confusion\r\n- Added 30+ procedural attack sector replacement submissions from the community - these are currently untested, please leave feedback on the relevant threads from the in-game link\r\n- When losing a sector on Serpulo, all player structures from the previous run now become derelict\r\n- On Serpulo, derelict structures and plans from previous runs are now always carried over, even when a map has a world processor in it\r\n- Removed thorium from sector 218 on Serpulo (in the future, it will be replaced by a hand-made sector)",
+        "assets": [
+            {
+                "name": "Mindustry.jar",
+                "size": 75271068,
+                "download_count": 2039,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v152/Mindustry.jar",
+                "created_at": "2025-09-27T04:51:52Z",
+                "updated_at": "2025-09-27T04:51:55Z"
+            },
+            {
+                "name": "server-release.jar",
+                "size": 13296118,
+                "download_count": 357,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v152/server-release.jar",
+                "created_at": "2025-09-27T04:51:56Z",
+                "updated_at": "2025-09-27T04:51:57Z"
+            }
+        ],
+        "created_at": "2025-09-27T04:48:58Z",
+        "updated_at": "2025-09-27T04:51:57Z"
+    },
+    {
+        "id": "v151.1",
+        "name": "v8 Build 151.1 - Beta",
+        "prerelease": true,
+        "body": "- Fixed Malign creating far fewer bullets than expected\r\n- Fixed metal walls appearing black on minimap\r\n- Fixed rune characters being flipped in font\r\n- Fixed under-liquid floors remaining when painted over in the editor\r\n- Minor updates to map submissions",
+        "assets": [
+            {
+                "name": "Mindustry.jar",
+                "size": 73323684,
+                "download_count": 6092,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v151.1/Mindustry.jar",
+                "created_at": "2025-08-25T19:02:11Z",
+                "updated_at": "2025-08-25T19:02:13Z"
+            },
+            {
+                "name": "server-release.jar",
+                "size": 11376406,
+                "download_count": 1090,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v151.1/server-release.jar",
+                "created_at": "2025-08-25T19:02:14Z",
+                "updated_at": "2025-08-25T19:02:15Z"
+            }
+        ],
+        "created_at": "2025-08-25T18:59:32Z",
+        "updated_at": "2025-08-25T19:02:15Z"
+    },
+    {
+        "id": "v151",
+        "name": "v8 Build 151 - Beta",
+        "prerelease": true,
+        "body": "- Deprecated 32-bit Windows version (please switch to a 64-bit install!)\r\n- Added 'rune' decorative tiles for use in the campaign\r\n- Added 3 new environmental metal wall blocks and 1 new metal floor block\r\n- Added support for selecting multiple buildings in command mode at once\r\n- Added editor support for colored floor/wall configuration\r\n- Removed \"walls to cliffs\" button\r\n- Added support for filling regions with cliffs using fill tool mode\r\n- Added support for painting floors under certain liquids in editor\r\n- Fixed colored floors/walls not being filled or mirrored properly in editor\r\n- Fixed player not being able to command units properly when dead\r\n- Fixed campaign games continuing even after core destruction\r\n- Fixed bullets spawning backwards at low FPS values\r\n- Fixed block configurations in schematics changing when item/block IDs change\r\n- Fixed dead buildings being readable/writable in logic\r\n- Fixed NaN being a possible value in logic\r\n- Made bloom enabled by default on iOS (for platform parity)\r\n- Improved precision of numerical stats displayed in core database\r\n- Updates to Planetary Launch Terminal and Geothermal Stronghold submissions\r\n- Many various changes to Erekir turret stats",
+        "assets": [
+            {
+                "name": "Mindustry.jar",
+                "size": 73325399,
+                "download_count": 1508,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v151/Mindustry.jar",
+                "created_at": "2025-08-25T00:07:27Z",
+                "updated_at": "2025-08-25T00:07:30Z"
+            },
+            {
+                "name": "server-release.jar",
+                "size": 11373665,
+                "download_count": 304,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v151/server-release.jar",
+                "created_at": "2025-08-25T00:07:31Z",
+                "updated_at": "2025-08-25T00:07:31Z"
+            }
+        ],
+        "created_at": "2025-08-25T00:04:30Z",
+        "updated_at": "2025-08-25T00:07:32Z"
+    },
+    {
+        "id": "v150.1",
+        "name": "v8 Build 150.1 - Beta",
+        "prerelease": true,
+        "body": "- Changed planet launch UI visuals slightly to indicate origin sector more clearly\r\n- Made hovered sector name/info display on mobile (previously, it was only visible on desktop)\r\n- Added a hint for un-researched unit upgrades\r\n- Added previews of incoming links for Erekir bridges\r\n- Made enemy spawn positions update when edited in-game through world processors or scripts\r\n- Increased Breach tungsten ammo multiplier 1 -> 2\r\n- Fixed scaling of server headers in server list\r\n- Fixed possible duplication of servers in server list\r\n- Fixed teams in logic not being sense-able",
+        "assets": [
+            {
+                "name": "Mindustry.jar",
+                "size": 73073561,
+                "download_count": 7954,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v150.1/Mindustry.jar",
+                "created_at": "2025-07-25T23:23:18Z",
+                "updated_at": "2025-07-25T23:23:20Z"
+            },
+            {
+                "name": "server-release.jar",
+                "size": 11354962,
+                "download_count": 1396,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v150.1/server-release.jar",
+                "created_at": "2025-07-25T23:23:21Z",
+                "updated_at": "2025-07-25T23:23:21Z"
+            }
+        ],
+        "created_at": "2025-07-25T23:20:38Z",
+        "updated_at": "2025-07-25T23:23:21Z"
+    },
+    {
+        "id": "v150",
+        "name": "v8 Build 150 - Beta",
+        "prerelease": true,
+        "body": "- Complete reorganization of Serpulo campaign layout and sector tech tree; preset sectors are now adjacent\r\n- Made sector icons show up on map\r\n- Moved procedural attack sector positions\r\n- Made dark areas of Serpulo emit light based on player/enemy structure presence\r\n- Made procedural sectors on Serpulo now require a Foundation core to prevent sequence breaking\r\n- Added unfinished enemy base sectors to the far side of Serpulo - these are currently procedural nonsense, but will be replaced with user-made maps in a future update\r\n- Made \"select all units\" ignore Mono units\r\n- Added support for multiple unit stances at once\r\n- Added support for specifying multiple ores to mine for units\r\n- Made enemy wave AI detect and avoid unit clogs in certain situations\r\n- Made the editor display a more accurate version of the map\r\n- Added new metal tiles for future Serpulo maps\r\n- Added colored floor/wall blocks for custom maps\r\n- Added character overlay tiles\r\n- Added a Steam achievement for killing a unit with a mass driver bolt\r\n- Added a setting for detaching the camera\r\n- Added a key for toggling unit debug hitboxes\r\n- Added a rule for filling the core with items\r\n- Reduced damage of Arc against shields\r\n- Reduced flying unit crash damage by 50%, and wreck health by 75%\r\n- Made mass driver bullet damage/explosiveness depend on items carried\r\n- Various balancing adjustments to make payload distribution more viable on Erekir\r\n- Made Quell missiles temporarily invincible\r\n- Fixed miner units sometimes searching for ores far away from the core\r\n- Fixed a freeze caused by broken logic spawning explosions\r\n- Fixed installs of multiple mods causing a redundant dependency dialog to appear\r\n- Fixed legged units drowning due to incorrect pathfinding\r\n- Fixed research button not being clickable on some devices\r\n- Fixed visual discontinuity line on Serpulo (and modded planets)\r\n- Potential fix for Java mods not loading on certain Android devices due to new security requirements\r\n- Made the server list cache itself as a file in case of unstable network conditions\r\n- Added experimental keyboard controls on iOS - note that handling right-clicks with a mouse properly does not seem to be a supported iOS feature\r\n- Added selection of attack wave spawn position by commanding cores in editor\r\n- Made logic-controlled units unselectable again\r\n- Made tileable logic displays have an offset to account for the frame, similarly to standard displays\r\n- Added support for reading characters from strings and message blocks in logic\r\n- Added support for reading/writing to canvas blocks in logic\r\n- Added 'select' (ternary) logic operation\r\n- Made text align a constant variable instead of static instruction field",
+        "assets": [
+            {
+                "name": "Mindustry.jar",
+                "size": 73073317,
+                "download_count": 2557,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v150/Mindustry.jar",
+                "created_at": "2025-07-23T19:22:14Z",
+                "updated_at": "2025-07-23T19:22:16Z"
+            },
+            {
+                "name": "server-release.jar",
+                "size": 11352365,
+                "download_count": 469,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v150/server-release.jar",
+                "created_at": "2025-07-23T19:22:16Z",
+                "updated_at": "2025-07-23T19:22:17Z"
+            }
+        ],
+        "created_at": "2025-07-23T19:19:29Z",
+        "updated_at": "2025-07-23T19:22:17Z"
+    },
+    {
+        "id": "v149",
+        "name": "v8 Build 149 - Beta",
+        "prerelease": true,
+        "body": "- Fixed various errors related to pathfinding\r\n- Fixed a map editor crash\r\n- Fixed naval units in waves ignoring walls when pathfinding\r\n- Fixed RTS AI building up units infinitely in many cases\r\n- Fixed campaign not saving wave state when game is closed\r\n- Fixed overdrive state not saving\r\n- Improved visual interpolation of unit-based missiles on servers\r\n- Many various balancing changes to Erekir power blocks and turrets\r\n- Added Frozen Forest completion requirement to silicon smelter\r\n- Added a search bar to the keybind dialog\r\n- Added a new system for mods to register their own keybinds (existing mods utilizing vanilla keybinds will break)\r\n- Added a way to manually select ores for units with mining capabilities\r\n- Added mining command capabilities to Pulsar/Quasar\r\n- Added stats for item throughput for item bridges\r\n- Added a reset button to logic processors\r\n- Allowed selecting/commanding units that are bound by logic processors\r\n- Selected units now display all available stances/commands, even if they are not shared across all units",
+        "assets": [
+            {
+                "name": "Mindustry.jar",
+                "size": 73836093,
+                "download_count": 13907,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v149/Mindustry.jar",
+                "created_at": "2025-04-30T23:34:11Z",
+                "updated_at": "2025-04-30T23:34:14Z"
+            },
+            {
+                "name": "server-release.jar",
+                "size": 10936805,
+                "download_count": 2823,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v149/server-release.jar",
+                "created_at": "2025-04-30T23:34:15Z",
+                "updated_at": "2025-04-30T23:34:15Z"
+            }
+        ],
+        "created_at": "2025-04-30T23:31:09Z",
+        "updated_at": "2025-04-30T23:34:15Z"
+    },
+    {
+        "id": "v148",
+        "name": "v8 Build 148 - Beta",
+        "prerelease": true,
+        "body": "- Fixed some issues with autoPause on dedicated servers\r\n- Fixed info button in tech tree not being clickable on desktop\r\n- Fixed command button not showing up on mobile\r\n- Fixed stats for Scathe not displaying correctly\r\n- Fixed liquid transportation blocks being too explosive when full\r\n- Fixed back button not pausing the game on Android\r\n- Fixed moving a build plan always moving it to the front on desktop\r\n- Removed tar fields requirement for Plastanium Compressor research\r\n- Various minor map fixes for Origin, Sea Port and Extraction Outpost\r\n- Added support for named colors in logic with %[colorname]\r\n- Added sensors for display size and draw buffer size\r\n- Added tiled logic display block\r\n- Reverted bridge cost increase\r\n- Made Fungal Pass a requirement for T2 units\r\n- Rebalancing of Erekir turret ammunition",
+        "assets": [
+            {
+                "name": "Mindustry.jar",
+                "size": 73811172,
+                "download_count": 3320,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v148/Mindustry.jar",
+                "created_at": "2025-04-21T14:12:36Z",
+                "updated_at": "2025-04-21T14:12:39Z"
+            },
+            {
+                "name": "server-release.jar",
+                "size": 10932082,
+                "download_count": 602,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v148/server-release.jar",
+                "created_at": "2025-04-21T14:12:39Z",
+                "updated_at": "2025-04-21T14:12:40Z"
+            }
+        ],
+        "created_at": "2025-04-21T14:09:53Z",
+        "updated_at": "2025-04-21T14:12:40Z"
+    },
+    {
+        "id": "v147.1",
+        "name": "v8 Build 147.1 - Beta",
+        "prerelease": true,
+        "body": "- Added tooltips for additional information about difficulty modifiers\r\n- Added experimental rule for RTS AI in Serpulo (likely to be buggy)\r\n- Added logging for OpenGL errors\r\n- Reduced research cost for various T1 unit factories and units on Serpulo\r\n- Fixed various minor map issues\r\n- Fixed compatibility with Java 8 on desktop\r\n- Fixed various crashes\r\n- Fixed player being able to rebuild locked derelict blocks\r\n- Fixed player names in minimap scaling with zoom\r\n- Fixed local games not being discoverable\r\n- Fixed command mode button being hidden in editor on mobile",
+        "assets": [
+            {
+                "name": "Mindustry.jar",
+                "size": 73764709,
+                "download_count": 2988,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v147.1/Mindustry.jar",
+                "created_at": "2025-04-14T03:04:35Z",
+                "updated_at": "2025-04-14T03:04:38Z"
+            },
+            {
+                "name": "server-release.jar",
+                "size": 10917047,
+                "download_count": 488,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v147.1/server-release.jar",
+                "created_at": "2025-04-14T03:04:39Z",
+                "updated_at": "2025-04-14T03:04:39Z"
+            }
+        ],
+        "created_at": "2025-04-14T03:01:46Z",
+        "updated_at": "2025-04-14T03:04:39Z"
+    },
+    {
+        "id": "v147",
+        "name": "v8 Build 147 - Beta",
+        "prerelease": true,
+        "body": "This is a beta release of v8. It does *not* contain any new Neoplasm faction content - that will be included in a future beta release.\r\n\r\nWith over a year since last release, this version has a massive amount of changes. Here are the highlights:\r\n\r\n- Overhaul of Serpulo campaign, with many new user-submitted maps and reworks of existing ones\r\n- Difficulty modifiers for the campaign\r\n- New launch pad mechanics - a landing pad is now required to receive resources\r\n- New functionality for the Interplanetary Accelerator (still a work in progress)\r\n- The tech tree can now be viewed in multiplayer for other players\r\n- Unique icons for sectors in the tech tree\r\n- Core database tabs for different planets (or mods, should they choose to support it)\r\n- New functionality that enables repairing derelict blocks\r\n- Several new production & utility blocks for Erekir\r\n- Command group hotkeys for units\r\n- New unit stances for patrolling, holding fire, queuing commands and more\r\n- New unit commands for looping payload unit transfer, moving into payload blocks, and more\r\n- New visuals for unit command selection\r\n- A new pathfinding implementation for units with enhanced performance and reduced unit jams\r\n- A new UI for editing terrain in-game\r\n- New ammo types for Erekir turrets\r\n- Balancing & visual improvements for Serpulo turret ammo\r\n- Instructions for displaying text and applying drawing transformations for logic processors\r\n- A new system for displaying arbitrary in-game textures or shapes in maps with world processors\r\n- New UI for easily managing world processor scripting in maps\r\n- Many various new features for logic blocks, especially world processors\r\n- Significant rendering performance optimizations\r\n\r\nDue to internal changes, this release is incompatible with v7 Java mods. See https://mindustrygame.github.io/wiki/modding/8-migrationv8 for a list of changes needed to update a Java mod to v8. JSON mods should be largely unaffected.",
+        "assets": [
+            {
+                "name": "Mindustry.jar",
+                "size": 73870562,
+                "download_count": 3881,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v147/Mindustry.jar",
+                "created_at": "2025-04-11T01:24:09Z",
+                "updated_at": "2025-04-11T01:24:13Z"
+            },
+            {
+                "name": "server-release.jar",
+                "size": 10912753,
+                "download_count": 524,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v147/server-release.jar",
+                "created_at": "2025-04-11T01:24:14Z",
+                "updated_at": "2025-04-11T01:24:15Z"
+            }
+        ],
+        "created_at": "2025-04-11T01:20:52Z",
+        "updated_at": "2025-04-11T01:24:15Z"
+    },
+    {
+        "id": "v146",
+        "name": "7.0 Build 146 ",
+        "prerelease": false,
+        "body": "- Fixed a variety of issues with unit & block cost multiplier rules\r\n- Fixed many various crashes\r\n- Fixed various Steam achievements not triggering\r\n- Fixed pathfinding not being able to path through solid enemy blocks\r\n- Fixed naval units sometimes attempting to pathfind through land\r\n- Fixed game data not exporting with large saves on iOS\r\n- Fixed water tiles with space background resulting in a black background\r\n- Fixed internal legacy blocks being logic constants\r\n- Fixed power node double-click leading to interaction rate limit triggering\r\n- Fixed units sometimes being unkillable\r\n- Fixed units with long paths sometimes recalculating forever\r\n- Fixed serious issue with player units getting bugged in certain maps with puddles\r\n- Fixed Neoplasia reactor sometimes not exploding\r\n- Fixed units randomly dying when hitting corners\r\n- Fixed piercing bullets permaturely hitting blocks \"under\" bullets\r\n- Fixed missiles dealing double damage to units\r\n- Fixed FPS not limiting accurately\r\n- Added setting to disable all lighting\r\n- Added logic unit autoPathfind command (default wave pathfinding)\r\n- Made logic unbind command set `@unit` to null\r\n- Made \"any\" environment accessible outside of sandbox\r\n- Made payload loaders no longer accept inputs from payload unloaders\r\n- Added logic sensors for shields, content ID (inverse of lookup command)\r\n- Added logic particle effect instruction\r\n- Added logic sync instruction\r\n- Setting factory output points now updates \"last accessed\"\r\n- Disabled team switching menu in multiplayer outside of sandbox/PvP\r\n- Decreased canvas block silicon cost slightly\r\n- Scathe ammo usage decreased to 15\r\n- Buffed Precept unit",
+        "assets": [
+            {
+                "name": "Mindustry.jar",
+                "size": 72939318,
+                "download_count": 116161,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v146/Mindustry.jar",
+                "created_at": "2023-09-04T03:55:56Z",
+                "updated_at": "2023-09-04T03:56:08Z"
+            },
+            {
+                "name": "server-release.jar",
+                "size": 9633782,
+                "download_count": 29988,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v146/server-release.jar",
+                "created_at": "2024-07-18T17:23:29Z",
+                "updated_at": "2024-07-18T17:23:32Z"
+            }
+        ],
+        "created_at": "2023-09-04T02:27:46Z",
+        "updated_at": "2024-07-18T17:23:33Z"
+    },
+    {
+        "id": "v145.1",
+        "name": "7.0 Build 145.1 ",
+        "prerelease": false,
+        "body": "- Fixed a mobile crash when placing blocks\n- Fixed adding schematic icon tags breaking the game\n- Misc pathfinding bugfixes; units should not get stuck moving backwards\n- Legged/insect units should no longer pathfind around solid blocks they can step over",
+        "assets": [
+            {
+                "name": "Mindustry.jar",
+                "size": 72965386,
+                "download_count": 18744,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v145.1/Mindustry.jar",
+                "created_at": "2023-06-19T21:38:50Z",
+                "updated_at": "2023-06-19T21:38:52Z"
+            },
+            {
+                "name": "server-release.jar",
+                "size": 9642874,
+                "download_count": 8887,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v145.1/server-release.jar",
+                "created_at": "2023-06-19T21:38:53Z",
+                "updated_at": "2023-06-19T21:38:54Z"
+            }
+        ],
+        "created_at": "2023-06-19T21:33:57Z",
+        "updated_at": "2023-06-19T21:38:54Z"
+    },
+    {
+        "id": "v145",
+        "name": "7.0 Build 145 ",
+        "prerelease": false,
+        "body": "- Fixed logic icons for certain content being squished\n- Fixed a freeze caused by stack routers\n- Fixed Base AI not working sometimes\n- Fixed mods not being able to override UI images\n- Fixed map flags added in objectives not syncing\n- Fixed a crash related to editing canvases\n- Added votekick reason option, made votekicks cancel-able by admins (contributed by @frieda666)\n- Added button for admins to switch player teams\n- Added past player names / IPs to player trace info\n- Added fill erase mode to editor\n- Added option to adapt UI to Macbook notches (contributed by @alxgsv)\n- Made Serpulo attack sectors not invade nearby sectors while you are attacking them\n- Various improvements to the schematics UI (Contributed by @JniTrRny)\n- Starting unit command can now be selected in reconstructors\n- Units now retain their last command when controlled and un-controlled by players",
+        "assets": [
+            {
+                "name": "Mindustry.jar",
+                "size": 72954870,
+                "download_count": 2657,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v145/Mindustry.jar",
+                "created_at": "2023-06-17T22:03:21Z",
+                "updated_at": "2023-06-17T22:03:23Z"
+            },
+            {
+                "name": "server-release.jar",
+                "size": 9642437,
+                "download_count": 931,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v145/server-release.jar",
+                "created_at": "2023-06-17T22:03:24Z",
+                "updated_at": "2023-06-17T22:03:25Z"
+            }
+        ],
+        "created_at": "2023-06-17T21:58:58Z",
+        "updated_at": "2023-06-17T22:03:25Z"
+    },
+    {
+        "id": "v144.3",
+        "name": "7.0 Build 144.3 ",
+        "prerelease": false,
+        "body": "This is a hotfix release to fix some startup crashes.\n\n- Fixed various crashes related to mods\n- Fixed hail using incorrect heat sprite\n- Fixed disabled payload conveyors still moving units on them\n- Added new scorch sprite (Contributed by Fox1va_)",
+        "assets": [
+            {
+                "name": "Mindustry.jar",
+                "size": 72914126,
+                "download_count": 5212,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v144.3/Mindustry.jar",
+                "created_at": "2023-05-23T02:07:24Z",
+                "updated_at": "2023-05-23T02:07:27Z"
+            },
+            {
+                "name": "server-release.jar",
+                "size": 9622289,
+                "download_count": 2231,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v144.3/server-release.jar",
+                "created_at": "2023-05-23T02:07:28Z",
+                "updated_at": "2023-05-23T02:07:29Z"
+            }
+        ],
+        "created_at": "2023-05-23T02:02:45Z",
+        "updated_at": "2023-05-23T02:07:29Z"
+    },
+    {
+        "id": "v144.2",
+        "name": "7.0 Build 144.2 ",
+        "prerelease": false,
+        "body": "- Fixed Mindustry consuming ~44mb more RAM on startup than v6 did - this will fix random out-of-memory crashes on many low-end phones\n- Fixed logic blocks not re-enabling blocks when unlinking from them\n- Updated various Serpulo turret sprites/animations (Contributed by several community members on Discord)\n- Re-added the base builder AI rule and enabled it in the existing custom game attack/PvP maps\n- Buffed Tecta unit\n- Made file chooser on Linux now use Zenity when possible\n- Improved schematics used in base generation on Serpulo (Contributed by @BlueWolf3682)\n- Various minor improvements to modding API",
+        "assets": [
+            {
+                "name": "Mindustry.jar",
+                "size": 72929217,
+                "download_count": 1167,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v144.2/Mindustry.jar",
+                "created_at": "2023-05-22T02:36:01Z",
+                "updated_at": "2023-05-22T02:36:03Z"
+            },
+            {
+                "name": "server-release.jar",
+                "size": 9622488,
+                "download_count": 264,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v144.2/server-release.jar",
+                "created_at": "2023-05-22T02:36:04Z",
+                "updated_at": "2023-05-22T02:36:05Z"
+            }
+        ],
+        "created_at": "2023-05-22T02:31:30Z",
+        "updated_at": "2023-05-22T02:36:05Z"
+    },
+    {
+        "id": "v144.1",
+        "name": "7.0 Build 144.1 ",
+        "prerelease": false,
+        "body": "- Fixed Erekir missile units committing suicide after shooting (amazing I know)\r\n- Reverted new gas sprites (too wacky)",
+        "assets": [
+            {
+                "name": "Mindustry.jar",
+                "size": 72519307,
+                "download_count": 2175,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v144.1/Mindustry.jar",
+                "created_at": "2023-05-13T15:18:20Z",
+                "updated_at": "2023-05-13T15:18:35Z"
+            },
+            {
+                "name": "server-release.jar",
+                "size": 9542237,
+                "download_count": 753,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v144.1/server-release.jar",
+                "created_at": "2023-05-13T15:18:29Z",
+                "updated_at": "2023-05-13T15:18:33Z"
+            }
+        ],
+        "created_at": "2023-05-12T06:13:51Z",
+        "updated_at": "2023-05-13T15:18:35Z"
+    },
+    {
+        "id": "v144",
+        "name": "7.0 Build 144 ",
+        "prerelease": false,
+        "body": "- Fixed \"any\" environment button not enabling\n- Fixed a crash related to an experimental rule being enabled on certain servers\n- Fixed lag caused by sorters updating minimap very quickly\n- Fixed Serpulo generated bases sometimes having unlinked power nodes\n- Fixed JSON planets/sectors/status effects not having a mod name prefix - this may break bundles\n- Fixed invalid liquid consumption stats on plasma bores\n- Doubled max schematic size\n- Canvas blocks now show their image preview in the schematics dialog\n- Newly created maps and schematics now use the provided name as a filename instead of random numbers (Limited to alphanumeric characters)\n- Added camera rectangle to map view, right-click to move the camera [Desktop]\n- Added building damage indicators to minimap\n- Added logic pathfind instruction - supports arbitrary coordinates\n- Added unit health multiplier rule\n- Added map 'ends after wave' rule (Contributed by @JniTrRny)\n- Added search bar for wave UI (Contributed by @JniTrRny)\n- Added new Erekir gas and liquid sprites (Contributed by @stacktrace-error)\n- Added functionality to make overlays/floors place-able in mods (or servers with the revealedBlocks rule edited)\n- Added piston regions to blocks that did not have them (Contributed by @MEEPofFaith)\n- Added search bar to custom game menu\n- Added 'rebuild area' button to mobile - note that the mod scheme-size V2.7.54 breaks this functionality - disable or update it to use this feature properly!\n- Improved server list UI",
+        "assets": [
+            {
+                "name": "Mindustry.jar",
+                "size": 72586186,
+                "download_count": 738,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v144/Mindustry.jar",
+                "created_at": "2023-05-11T19:42:55Z",
+                "updated_at": "2023-05-11T19:42:58Z"
+            },
+            {
+                "name": "server-release.jar",
+                "size": 9601574,
+                "download_count": 248,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v144/server-release.jar",
+                "created_at": "2023-05-11T19:42:59Z",
+                "updated_at": "2023-05-11T19:42:59Z"
+            }
+        ],
+        "created_at": "2023-05-11T19:37:23Z",
+        "updated_at": "2023-05-11T19:42:59Z"
+    },
+    {
+        "id": "v143.1",
+        "name": "7.0 Build 143.1 ",
+        "prerelease": false,
+        "body": "- Fixed startup crash when changing UI scale to 5%\n- Fixed network error when calling world logic explosion instruction with a null team\n- Fixed sector background simulation not taking into account builder/repair units\n- Fixed server-side network error when placing certain large logic schematics\n- Fixed force projector hitbox being a square\n- Fixed blank weapon stat boxes for certain units\n- Fixed various regressions from last release (batteries being broken in mods, server menus not closing...)\n- Added support for multi-barrel recoil in mods (Contributed by @MEEPofFaith)\n- Made duo barrels move separately when shooting\n- Improved stat display for various blocks (Contributed by @JniTrRny)",
+        "assets": [
+            {
+                "name": "Mindustry.jar",
+                "size": 72508063,
+                "download_count": 5685,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v143.1/Mindustry.jar",
+                "created_at": "2023-04-08T15:07:58Z",
+                "updated_at": "2023-04-08T15:08:01Z"
+            },
+            {
+                "name": "server-release.jar",
+                "size": 9582318,
+                "download_count": 2354,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v143.1/server-release.jar",
+                "created_at": "2023-04-08T15:08:02Z",
+                "updated_at": "2023-04-08T15:08:03Z"
+            }
+        ],
+        "created_at": "2023-04-08T15:02:40Z",
+        "updated_at": "2023-04-08T15:08:03Z"
+    },
+    {
+        "id": "v143",
+        "name": "7.0 Build 143 ",
+        "prerelease": false,
+        "body": "there is no funny\r\n\r\n- Fixed some keybinds missing translations\r\n- Fixed a long-standing pathfinding issue of enemy wave units exhibiting \"confused\" behavior in certain maps\r\n- Fixed a server exploit that allowed users to block others from connecting\r\n- Made entity sync network errors log a warning instead of forcibly disconnecting clients\r\n- Made server list show multiple servers per row on wide screens\r\n- Misc fixes to Steam lobby system; you can now set a name/color when hosting\r\n- New UI for turret/unit weapon stats in core database (Contributed by @MEEPofFaith)\r\n- Improved support for modded planets with different radii (Contributed by @Pasu4)\r\n- Added support for `cloudMesh:` and HexSkyMesh as a type for planets in JSON mods\r\n- Added world logic setProp instruction - while unfinished, this instruction allows world processors to set attributes of buildings and units, like health or items stored\r\n- Added server Call#textInput method for getting text input from players (Contributed by @Darkness6030)\r\n- Added server Call#followUpMenu method for showing menus that replace the last shown menu without an animation (Contributed by @Xasmedy)",
+        "assets": [
+            {
+                "name": "server-release.jar",
+                "size": 9570182,
+                "download_count": 911,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v143/server-release.jar",
+                "created_at": "2023-04-01T03:34:55Z",
+                "updated_at": "2023-04-01T03:34:56Z"
+            },
+            {
+                "name": "Mindustry.jar",
+                "size": 72455606,
+                "download_count": 2586,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v143/Mindustry.jar",
+                "created_at": "2023-04-01T14:18:09Z",
+                "updated_at": "2023-04-01T14:18:25Z"
+            }
+        ],
+        "created_at": "2023-04-01T03:30:35Z",
+        "updated_at": "2023-04-01T14:18:25Z"
+    },
+    {
+        "id": "v142",
+        "name": "7.0 Build 142 ",
+        "prerelease": false,
+        "body": "- Actually fixed host research not syncing to clients correctly (for real this time)\r\n- Fixed Steam workshop maps displaying an error upon update attempt\r\n- Fixed sublimates targeting ducts but being unable to hit them\r\n- Fixed sandbox displaying as survival with Discord integration\r\n- Fixed certain blocks not displaying placement efficiency on mobile\r\n- Fixed repair turrets incorrectly displaying status as red when not targeting\r\n- Fixed 'hidden' content (planets, etc) displaying in list of mod content\r\n- Fixed several crashes\r\n- Fixed Oct shield break effect being hexagonal\r\n\r\n- Improved mod dependency resolution (Contributed by @Phinner)\r\n- Buffed Conquer slightly, nerfed Collaris range slightly\r\n- Made Disrupt/Quell no longer target air units\r\n- Added a boost toggle command for units that can support it (nova, etc) - keep in mind that these units cannot shoot when flying, and will not try to find a landing position if blocked\r\n- Decreased frequency of save events on dedicated server; may fix some player connection performance issues",
+        "assets": [
+            {
+                "name": "Mindustry.jar",
+                "size": 72441599,
+                "download_count": 8408,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v142/Mindustry.jar",
+                "created_at": "2023-02-21T16:25:17Z",
+                "updated_at": "2023-02-21T16:25:23Z"
+            },
+            {
+                "name": "server-release.jar",
+                "size": 9475832,
+                "download_count": 2749,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v142/server-release.jar",
+                "created_at": "2023-02-22T18:05:22Z",
+                "updated_at": "2023-02-22T18:05:25Z"
+            }
+        ],
+        "created_at": "2023-02-21T16:19:26Z",
+        "updated_at": "2023-02-22T18:05:25Z"
+    },
+    {
+        "id": "v141.3",
+        "name": "7.0 Build 141.3 ",
+        "prerelease": false,
+        "body": "- Fixed host research not syncing to clients correctly\n- Fixed clients being able to open research dialog\n- Fixed a crash with certain mods\n- Fixed \"consumer-less\" modded blocks always being at 100% efficiency",
+        "assets": [
+            {
+                "name": "Mindustry.jar",
+                "size": 72434229,
+                "download_count": 6480,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v141.3/Mindustry.jar",
+                "created_at": "2023-01-22T18:32:45Z",
+                "updated_at": "2023-01-22T18:32:48Z"
+            },
+            {
+                "name": "server-release.jar",
+                "size": 9533131,
+                "download_count": 2071,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v141.3/server-release.jar",
+                "created_at": "2023-01-22T18:32:49Z",
+                "updated_at": "2023-01-22T18:32:51Z"
+            }
+        ],
+        "created_at": "2023-01-22T18:27:16Z",
+        "updated_at": "2023-01-22T18:32:51Z"
+    },
+    {
+        "id": "v141.2",
+        "name": "7.0 Build 141.2 ",
+        "prerelease": false,
+        "body": "- Fixed Sublimate not working correctly\n- Fixed Spanish language having corrupted letters\n- Fixed server chatSpamLimit config having wrong value",
+        "assets": [
+            {
+                "name": "Mindustry.jar",
+                "size": 72444986,
+                "download_count": 2788,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v141.2/Mindustry.jar",
+                "created_at": "2023-01-13T15:19:39Z",
+                "updated_at": "2023-01-13T15:19:41Z"
+            },
+            {
+                "name": "server-release.jar",
+                "size": 9531541,
+                "download_count": 770,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v141.2/server-release.jar",
+                "created_at": "2023-01-13T15:19:42Z",
+                "updated_at": "2023-01-13T15:19:43Z"
+            }
+        ],
+        "created_at": "2023-01-13T15:14:04Z",
+        "updated_at": "2023-01-13T15:19:43Z"
+    },
+    {
+        "id": "v141.1",
+        "name": "7.0 Build 141.1 ",
+        "prerelease": false,
+        "body": "- Fixed some new crashes\n- Reverted addition to env mapping due to instability - do not use the `Env#add` method, it will not work correctly",
+        "assets": [
+            {
+                "name": "Mindustry.jar",
+                "size": 72443121,
+                "download_count": 677,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v141.1/Mindustry.jar",
+                "created_at": "2023-01-12T19:56:36Z",
+                "updated_at": "2023-01-12T19:56:40Z"
+            },
+            {
+                "name": "server-release.jar",
+                "size": 9535114,
+                "download_count": 189,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v141.1/server-release.jar",
+                "created_at": "2023-01-12T19:56:41Z",
+                "updated_at": "2023-01-12T19:56:42Z"
+            }
+        ],
+        "created_at": "2023-01-12T19:52:16Z",
+        "updated_at": "2023-01-12T19:56:42Z"
+    },
+    {
+        "id": "v141",
+        "name": "7.0 Build 141 ",
+        "prerelease": false,
+        "body": "- Fixed many various crashes\n- Fixed world message being replaceable\n- Fixed various Serpulo sectors having no waves\n- Fixed inaccessible resources under blocks appearing in sector resources info\n- Fixed units following wrong team when assisting\n- Fixed liquid puddles not syncing in multiplayer\n- Many other minor bugfixes\n- Improved loading speed of maps with many power graphs\n- Improved performance of entity removal (should make effects/bullets less laggy)\n- Made Oct shield an octagon\n- Made block statuses flash when low on power/liquid instead of staying green\n- Disabled campaign research/state syncing across multiplayer due to confusion - campaigns should be completely separate now\n- Decreased Scathe fog uncover range (75% of range -> 40% of range)\n- Increased Quell build cost\n- Nerfed Locus, buffed Vanquish, Conquer, Cleroi\n- Added rule for unit crash damage",
+        "assets": [
+            {
+                "name": "Mindustry.jar",
+                "size": 72453233,
+                "download_count": 669,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v141/Mindustry.jar",
+                "created_at": "2023-01-12T16:46:39Z",
+                "updated_at": "2023-01-12T16:46:44Z"
+            },
+            {
+                "name": "server-release.jar",
+                "size": 9536222,
+                "download_count": 208,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v141/server-release.jar",
+                "created_at": "2023-01-12T16:46:45Z",
+                "updated_at": "2023-01-12T16:46:47Z"
+            }
+        ],
+        "created_at": "2023-01-12T16:41:51Z",
+        "updated_at": "2023-01-12T16:46:47Z"
+    },
+    {
+        "id": "v140.4",
+        "name": "7.0 Build 140.4 ",
+        "prerelease": false,
+        "body": "- Fixed some placeholder/unfinished sector descriptions in many languages\r\n- Fixed payload blocks rotating to face unit direction\r\n- Fixed duplicate UUIDs being allowed on servers in certain circumstances\r\n- Fixed some minor crashes\r\n- Fixed incorrect shoot speed multiplier display for blocks\r\n- Fixed certain Erekir resources being unlocked while on Serpulo (although the tech tree items are still shared)\r\n- Fixed commanding all unit factories triggering rate limit on servers\r\n- Many other small bugfixes\r\n- Increased long tap duration on mobile for less annoying accidental payload pickup\r\n- Made most turrets target conveyors/ducts/etc again",
+        "assets": [
+            {
+                "name": "Mindustry.jar",
+                "size": 72365822,
+                "download_count": 12422,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v140.4/Mindustry.jar",
+                "created_at": "2022-11-13T15:31:38Z",
+                "updated_at": "2022-11-13T15:32:04Z"
+            },
+            {
+                "name": "server-release.jar",
+                "size": 9452152,
+                "download_count": 3411,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v140.4/server-release.jar",
+                "created_at": "2022-11-13T15:32:06Z",
+                "updated_at": "2022-11-13T15:32:11Z"
+            }
+        ],
+        "created_at": "2022-11-13T15:21:07Z",
+        "updated_at": "2022-11-13T15:32:11Z"
+    },
+    {
+        "id": "v140.3",
+        "name": "7.0 Build 140.3 ",
+        "prerelease": false,
+        "body": "7.0, an update that has been in development for more than 1.5 years, is finally here.\r\n\r\nAs with earlier major updates, there are too many changes to list in a single changelog - these are just the highlights.\r\n\r\n- An entirely new planet - Erekir - with its own campaign, tech tree, units and blocks\r\n- 100+ new blocks to research\r\n- 18 new units for Erekir, 5 new naval support units on Serpulo\r\n- Tanks, hovercrafts, insectoid walkers and more\r\n- 10 new turrets\r\n- Entire new systems for transporting power and items on Erekir\r\n- A new, more direct system of commanding units to move to specific locations and attack enemies\r\n\r\nSpecial thanks to the community members who helped create maps for use in the campaign:\r\n\r\n- Mechanicalfish \r\n- ThatOneBepis\r\n- hhhi17\r\n\r\nNote: Server-wise, this release should be compatible with beta 140.x versions.",
+        "assets": [
+            {
+                "name": "Mindustry.jar",
+                "size": 72341517,
+                "download_count": 2294,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v140.3/Mindustry.jar",
+                "created_at": "2022-11-11T11:36:33Z",
+                "updated_at": "2022-11-11T11:36:45Z"
+            },
+            {
+                "name": "server-release.jar",
+                "size": 9451084,
+                "download_count": 490,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v140.3/server-release.jar",
+                "created_at": "2022-11-11T11:36:47Z",
+                "updated_at": "2022-11-11T11:36:49Z"
+            }
+        ],
+        "created_at": "2022-11-11T11:23:06Z",
+        "updated_at": "2022-11-11T11:37:01Z"
+    },
+    {
+        "id": "v140.2",
+        "name": "7.0 Build 140.2 - Beta",
+        "prerelease": true,
+        "body": "This is a minor bugfix patch, intended to be the last beta release before 7.0 is fully available.\n\n\n- Fixed minimap block colors not updating on servers with fog enabled\n- Fixed some screen bounds issues on mobile\n- Fixed some unit targeting issues relating to fog\n- Fixed units piling up at last core in Origin sector\n- Fixed coastline unlocking too early on Serpulo\n- Minor improvements to campaign completion dialog\n- Added basic descriptions to Coastline/Naval Fortress\n- Made canvas blocks blend together seamlessly\n- Various improvements to display of stats/multipliers (Contributed by @MEEPofFaith)",
+        "assets": [
+            {
+                "name": "Mindustry.jar",
+                "size": 72458051,
+                "download_count": 916,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v140.2/Mindustry.jar",
+                "created_at": "2022-11-09T03:10:09Z",
+                "updated_at": "2022-11-09T03:10:13Z"
+            },
+            {
+                "name": "server-release.jar",
+                "size": 9564918,
+                "download_count": 182,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v140.2/server-release.jar",
+                "created_at": "2022-11-09T03:10:14Z",
+                "updated_at": "2022-11-09T03:10:15Z"
+            }
+        ],
+        "created_at": "2022-11-09T03:04:32Z",
+        "updated_at": "2022-11-09T03:10:15Z"
+    },
+    {
+        "id": "v140.1",
+        "name": "7.0 Build 140.1 - Beta",
+        "prerelease": true,
+        "body": "This is a hotfix for block targeting and Steam achievements.\n\n- Fixed blocks on Serpulo not being targeted by units/turrets\n- Fixed ability descriptions for some Erekir units\n- Fixed several Steam achievements not triggering correctly\n- Fixed various crafter lights flickering\n- Fixed BuildingBulletDestroyEvent not firing (API fix)\n- Buffed Shockwave Tower range and reload slightly\n- API change: Removed GameState.serverPaused, you can set to State.paused instead now\n- Removed screenshots from game data export\n- Added heat icon to stats for easier differentiation\n- Added extra hint about building cores to Basin nuke warning",
+        "assets": [
+            {
+                "name": "Mindustry.jar",
+                "size": 72443717,
+                "download_count": 1694,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v140.1/Mindustry.jar",
+                "created_at": "2022-11-03T15:50:07Z",
+                "updated_at": "2022-11-03T15:50:13Z"
+            },
+            {
+                "name": "server-release.jar",
+                "size": 9549413,
+                "download_count": 293,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v140.1/server-release.jar",
+                "created_at": "2022-11-03T15:50:14Z",
+                "updated_at": "2022-11-03T15:50:15Z"
+            }
+        ],
+        "created_at": "2022-11-03T15:44:55Z",
+        "updated_at": "2022-11-03T15:50:15Z"
+    },
+    {
+        "id": "v140",
+        "name": "7.0 Build 140 - Beta",
+        "prerelease": true,
+        "body": "This version can be considered a pre-release. The Erekir campaign is complete, and now has a final sector.\nWith the release in 10 or so days, all that remains is bugfixes and balancing.\n\n- Fixed canvas being available on Serpulo\n- Fixed RTS AI targeting unreachable locations and thus piling up units more than necessary\n- Fixed tanks not applying crush damage on servers \n- Made RTS AI target more structure types\n- Made Scathe turret only reveal fog in a fraction of its range - a spotter is required for more range\n- Made tank assembler require cyanogen\n- Hosts can now pause in multiplayer (this does not affect headless servers)\n- Misc unit balance\n- Decreased cost of T2/3 Erekir cores significantly\n- :emojis: for blocks in chat now automatically get replaced when typing on desktop (try :router:)\n- Added new achievements - these have NOT been tested yet, and some will be broken! [Steam]\n- Added 'rebuild selection' key - holding B (default) and dragging in an area will add ghost blocks to your build queue (Desktop only)\n- Added a packet rate limit for servers - sending packets too fast will get you blocked/kicked\n- Added a default max player limit for servers\n- Added a message block for Erekir (yes it's literally just a recolor, I had no better ideas)\n- Added a unbreakable message block for mapmakers\n- Added a keybind to select all units while in command mode (G by default)\n- Added support for selecting multiple unit factories at once (still no area selection yet)\n- Stretched out 'landing' sound to sync with core landing - yes, very lazy, I wil make a new one at some point\n- Increased speed of block constructors slightly\n\nCampaign:\n\n- Improved hints for Onset\n- Reduced research costs for most blocks\n- Added neoplasm to tech tree\n- Fixed objectives still continuing after capture\n- Fixed sectors across Erekir/Serpulo updating or preventing launch when they shouldn't\n- Added 'abandon' button in pause menu for easier access\n- Added Ground Zero tutorial (Original implementation by @MEEPofFaith)\n- Added several new Erekir maps\n- Added (WIP) final map completion dialog\n- Removed Interplanetary Accelerator from Serpulo research (it has no use)",
+        "assets": [
+            {
+                "name": "Mindustry.jar",
+                "size": 72430911,
+                "download_count": 1840,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v140/Mindustry.jar",
+                "created_at": "2022-11-01T06:10:39Z",
+                "updated_at": "2022-11-01T06:10:44Z"
+            },
+            {
+                "name": "server-release.jar",
+                "size": 9548184,
+                "download_count": 388,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v140/server-release.jar",
+                "created_at": "2022-11-01T06:10:45Z",
+                "updated_at": "2022-11-01T06:10:46Z"
+            }
+        ],
+        "created_at": "2022-11-01T06:05:08Z",
+        "updated_at": "2022-11-01T06:10:46Z"
+    },
+    {
+        "id": "v139",
+        "name": "7.0 Build 139 - Beta",
+        "prerelease": true,
+        "body": "v7 is now moving into the beta stage. The campaign system has been (mostly) stabilized, and all that remains in terms of content is approximately 5 more Erekir maps.\n\n- Fixed neoplasm being incinerated when contacting slag-bearing blocks\n- Fixed tank units not working correctly in mods\n- Fixed ground units moving too \"smoothly\" around corners\n- Misc balancing\n- Made Corvus and Vela no longer stop to shoot when commanded to a target\n- Made internal 'Canvas' block show up on Erekir - not particularly useful, but some may find it interesting\n- Made liquid tanks/containers solid and targetable by turrets again\n- Made mirror filter support increments smaller than 45 degrees (contributed by @hortiSquash)\n- Made neoplasm slightly more dangerous / spread faster\n- Removed the 'unit ammo' rule from custom game selection - this rule never worked properly on Erekir, is not balanced, and is seldom used\n- Improved planet selection UI\n- Improved item/block selection UI in certain blocks (contributed by @MEEPofFaith)\n- Added Heat Router block (Code contributed by @l-Luna, sprites by @kapzduke)\n- Added unit cost multiplier rule (Code partially contributed by @Ilya246)\n- Misc improvements to AI behavior in \"RTS\" maps\n- Mixed tech is now disabled as an option in new maps; the two tech trees are not meant to be used together - no, I will not be changing this back\n- API change: Made Separator class use a `drawer` field like GenericCrafter\n\n- Added several new maps [Campaign]\n- Added first-time planet/campaign selection dialog [Campaign]\n- Made 'global items' of Erekir and Serpulo separate [Campaign]\n- Removed Tantros from solar system, visually [Campaign]\n- Removed shield breaker block [Campaign]",
+        "assets": [
+            {
+                "name": "Mindustry.jar",
+                "size": 71976520,
+                "download_count": 6858,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v139/Mindustry.jar",
+                "created_at": "2022-10-04T21:46:01Z",
+                "updated_at": "2022-10-04T21:46:03Z"
+            },
+            {
+                "name": "server-release.jar",
+                "size": 9204157,
+                "download_count": 1019,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v139/server-release.jar",
+                "created_at": "2022-10-04T21:46:04Z",
+                "updated_at": "2022-10-04T21:46:05Z"
+            }
+        ],
+        "created_at": "2022-10-04T21:41:47Z",
+        "updated_at": "2022-10-04T21:46:05Z"
+    },
+    {
+        "id": "v138",
+        "name": "7.0 Build 138 - Alpha",
+        "prerelease": true,
+        "body": "- Fixed an exploit allowing logic-controlled units to transfer items with no cooldown\r\n- Fixed objectives edit dialog being broken with UI scaling\r\n- Fixed logic-spawned waves creating ghost units\r\n- Fixed non-hittable units being targeted in certain situations\r\n- Made player list more compact\r\n- Made clicking player on list jump to their position\r\n- Made Neoplasm stay on most liquids instead of disappearing\r\n- Various minor balancing changes\r\n- Changed interplanetary accelerator launch text for Serpulo with some beta clarification\r\n- Added Call.openURI method for servers to share links to players\r\n- Added sounds for most Erekir blocks/units\r\n- Added descriptions for Erekir content\r\n- Added two new campaign maps",
+        "assets": [
+            {
+                "name": "Mindustry.jar",
+                "size": 71754351,
+                "download_count": 9761,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v138/Mindustry.jar",
+                "created_at": "2022-08-30T10:51:08Z",
+                "updated_at": "2022-08-30T10:52:36Z"
+            },
+            {
+                "name": "server-release.jar",
+                "size": 8993186,
+                "download_count": 1606,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v138/server-release.jar",
+                "created_at": "2022-08-30T10:52:50Z",
+                "updated_at": "2022-08-30T10:52:56Z"
+            }
+        ],
+        "created_at": "2022-08-29T17:49:36Z",
+        "updated_at": "2022-08-30T10:52:56Z"
+    },
+    {
+        "id": "v137",
+        "name": "7.0 Build 137 - Alpha",
+        "prerelease": true,
+        "body": "- Fixed boosting units jittering when near obstacles [Mobile]\n- Fixed command UI not refreshing when switching single units\n- Fixed shielded walls being available on Serpulo\n- Fixed core schematics not connecting bridges on launch\n- Fixed some random network errors\n- Fixed various resource duping bugs in launch UI\n- Fixed certain Serpulo generators not displaying liquids\n- Fixed lightning not being able to damage conveyors\n- Fixed seams in tiles on certain mobile devices\n- Fixed various duct-related blending issues\n- Fixed stack router not outputting evenly\n- Fixed legged units being able to drown even when the body is on land\n- Fixed certain icons being squished\n- Added Flux Reactor block (unbalanced!)\n- Added Neoplasia Reactor block (unbalanced!)\n- Added Heat Source block for sandbox\n- Added command order system for Serpulo support units\n- Made Neoplasm liquid accessible in liquid sources/core database\n- Made drills only display mine-able resources from current map",
+        "assets": [
+            {
+                "name": "Mindustry.jar",
+                "size": 70762064,
+                "download_count": 10695,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v137/Mindustry.jar",
+                "created_at": "2022-08-04T18:22:12Z",
+                "updated_at": "2022-08-04T18:22:15Z"
+            },
+            {
+                "name": "server-release.jar",
+                "size": 8898992,
+                "download_count": 1920,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v137/server-release.jar",
+                "created_at": "2022-08-04T18:22:16Z",
+                "updated_at": "2022-08-04T18:22:17Z"
+            }
+        ],
+        "created_at": "2022-08-04T18:17:50Z",
+        "updated_at": "2022-08-04T18:22:17Z"
+    },
+    {
+        "id": "v136.1",
+        "name": "7.0 Build 136.1 - Alpha",
+        "prerelease": true,
+        "body": "- Fixed some menus being cut off in portrait mode [Mobile]\n- Fixed Erekir core units being able to target enemies [Mobile]\n- Fixed Erekir tutorial mentioning \"shift key\" on mobile devices\n- Fixed objective display showing empty dialog box on click\n- Fixed various minor crashes\n- Fixed certain crafters always requiring power even with no input\n- Fixed Erekir sector launch dialog showing copper/lead when Serpulo sector is loaded\n- Fixed unit repair beams still drawing when unit boosts\n- Fixed Arkycite floor applying wet status effect\n- Added hint for controlling unit factory output locations\n- Made mod browser filter out mods that don't have minGameVersion >= 136\n- Disabled resource sharing in campaign\n- Various minor tweaks and improvements to campaign maps",
+        "assets": [
+            {
+                "name": "Mindustry.jar",
+                "size": 70520024,
+                "download_count": 7819,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v136.1/Mindustry.jar",
+                "created_at": "2022-07-19T02:44:00Z",
+                "updated_at": "2022-07-19T02:44:02Z"
+            },
+            {
+                "name": "server-release.jar",
+                "size": 8869691,
+                "download_count": 1261,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v136.1/server-release.jar",
+                "created_at": "2022-07-19T02:44:03Z",
+                "updated_at": "2022-07-19T02:44:04Z"
+            }
+        ],
+        "created_at": "2022-07-19T02:39:42Z",
+        "updated_at": "2022-07-19T02:44:04Z"
+    },
+    {
+        "id": "v136",
+        "name": "7.0 Build 136 - Alpha",
+        "prerelease": true,
+        "body": "The first Erekir build is finally here.\r\n\r\nThis is a massive update that brings with it an entirely new planet - Erekir - with a completely new tech tree. It would take too long to list all the changes and additions in this build, but here are the highlights:\r\n\r\n- A new, separate (but incomplete) campaign on the planet Erekir with its own mechanics\r\n- 100+ new blocks\r\n- New units\r\n- New items\r\n- New factories, turrets, distribution blocks, support structures, etc\r\n- New systems for \"scripting\" maps with logic blocks and objectives\r\n- A fog-of-war system, available as a custom map rule and enabled on Erekir\r\n- Countless tweaks, improvements and QoL changes\r\n- Countless bugfixes... and probably even more new bugs\r\n\r\nThe old command center and formation mechanics have been replaced with a 'RTS' command system. On desktop, holding [Shift] places you in 'Command Mode', which gives you RTS-like control over your units. Left-click to select groups of units, and right-click to order them to locations or targets.\r\n\r\nNote that there is currently no way to RTS-control builder/support units present on Serpulo, like Poly or Mega.\r\n\r\nPlease keep in mind that the Erekir campaign is still completely unfinished, and covers less than half of the tech tree. While Erekir is nearly completely in terms of block/unit content, most things not covered in the campaign are completely unbalanced, and should be treated as such! Damage/speed/reload/etc values of end-game content are essentially untested placeholder values.\r\n\r\nFor an introduction to the new systems introduced in this build, play the campaign first. The content added in this update has not been properly tested in custom maps or PvP yet.",
+        "assets": [
+            {
+                "name": "Mindustry.jar",
+                "size": 70458429,
+                "download_count": 6211,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v136/Mindustry.jar",
+                "created_at": "2022-07-16T15:08:15Z",
+                "updated_at": "2022-07-16T15:09:11Z"
+            },
+            {
+                "name": "server-release.jar",
+                "size": 8804764,
+                "download_count": 729,
+                "download_url": "https://github.com/Anuken/Mindustry/releases/download/v136/server-release.jar",
+                "created_at": "2022-07-16T15:08:40Z",
+                "updated_at": "2022-07-16T15:08:54Z"
+            }
+        ],
+        "created_at": "2022-07-16T14:29:07Z",
+        "updated_at": "2022-07-16T15:09:14Z"
+    }
+]
