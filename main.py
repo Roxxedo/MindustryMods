@@ -6,6 +6,8 @@ import asyncio
 import json
 import shutil
 import os
+from PIL import Image, UnidentifiedImageError
+from io import BytesIO
 
 api = "https://api.github.com"
 perPage = 100
@@ -101,8 +103,17 @@ def process_image(repo, branch):
     ])
 
     if not icon == None:
-        with open(f'data/icons/{repo.replace('/', '_')}', 'wb') as f:
-            f.write(icon)
+        try:
+            img = Image.open(BytesIO(icon))
+            img = img.convert("RGBA")
+
+            img.thumbnail((iconSize, iconSize), Image.LANCZOS)
+            img.save(f'data/icons/{repo.replace('/', '_')}.png', format="PNG")
+
+            return True
+        except UnidentifiedImageError:
+            print(f'[{repo}] invalid icon')
+            return None
 
 def process_mod(mod, page, index, res):
     try:
@@ -120,7 +131,9 @@ def process_mod(mod, page, index, res):
             print(f'[{mod['full_name']}] skipping mod')
             return None
         
-        process_image(mod['full_name'], mod['default_branch'])
+        if process_image(mod['full_name'], mod['default_branch']) == None:
+            print(f'[{mod['full_name']}] skipping mod')
+            return None
 
         readme = tryList([
             f'{mod['full_name']}/{mod['default_branch']}/README.md',

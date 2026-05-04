@@ -8,25 +8,41 @@ on:
       - master
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
-    - name: Set up JDK
-      uses: actions/setup-java@v1
-      with:
-        java-version: 16
-    - name: Build with Gradle
-      run: ./gradlew run -Dorg.gradle.daemon=false -Dgithubtoken="Bearer ${{ secrets.GITHUB_TOKEN }}"
-    - name: Push changes
-      run: |
-        git config --global user.email "actions@github.com"
-        git config --global user.name "Github Actions"
-        git add mods.json
-        git add icons/*
-        git commit --allow-empty -m "[auto-update]"
-        git push https://Roxxedo:${{ secrets.API_TOKEN_GITHUB }}@github.com/Roxxedo/MindustryMods
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run indexer
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python main.py
+
+      - name: Push changes
+        run: |
+          git config --global user.email "actions@github.com"
+          git config --global user.name "Github Actions"
+
+          git add mods.json
+          git add icons/*
+
+          git commit --allow-empty -m "[auto-update]"
+          git push https://Roxxedo:${{ secrets.API_TOKEN_GITHUB }}@github.com/Roxxedo/MindustryMods
