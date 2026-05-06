@@ -152,6 +152,7 @@ def process_mod(mod, page, index, res):
             "id": mod['name'].lower(),
             "name": mod['name'],
             "repo": mod['full_name'],
+            "branch": mod['default_branch'],
             "author": mod['owner']['login'],
             "stars": mod['stargazers_count'],
             "min_game_version": meta['minGameVersion'],
