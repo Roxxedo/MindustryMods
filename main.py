@@ -88,7 +88,9 @@ def parse_hjson(meta):
         return None
     
     try:
-        return hjson.loads(meta, strict = False)
+        obj = hjson.loads(meta, strict = False)
+        if not isinstance(obj, dict): return None
+        return obj
     except Exception:
         return None
 
@@ -126,7 +128,7 @@ def process_mod(mod, page, index, res):
             f'{mod['full_name']}/{mod['default_branch']}/assets/mod.hjson'
         ])
         meta = parse_hjson(meta)
-    
+        
         if meta == None or meta.get('hideBrowser', False) or not float(meta.get('minGameVersion', 0)) >= 136.0:
             print(f'[{mod['full_name']}] skipping mod')
             return None
@@ -187,9 +189,10 @@ async def process_mods():
 
     while True:
         res = query("/search/repositories", { "q": f"topic:{topic} archived:false template:false pushed:>={lastPushDate}", "per_page": perPage, "page": page, "sort": "updated" })
+        totalPages = math.ceil(res['total_count'] / perPage) - 1
         mods = res['items']
 
-        print(f'[{int(page/math.ceil(res['total_count'] / perPage)*100)}%] [page {page}] quering page...')
+        print(f'[{int(page/totalPages*100)}%] [page {page}] quering page...')
 
         mods = [mod for mod in mods if not mod['full_name'].startswith(nameBlacklist)]
         mods = [mod for mod in mods if not mod['full_name'] in blacklist]
@@ -197,7 +200,7 @@ async def process_mods():
         for index, mod in enumerate(mods):
             tasks.append(asyncio.create_task(process_mod_limited(mod, page, index, res)))
 
-        if page == math.ceil(res['total_count'] / perPage):
+        if page == totalPages:
             break
 
         page += 1
