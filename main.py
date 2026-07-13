@@ -129,12 +129,20 @@ def process_mod(mod, page, index, res):
         ])
         meta = parse_hjson(meta)
         
-        if meta == None or meta.get('hideBrowser', False) or not float(meta.get('minGameVersion', 0)) >= 136.0:
-            print(f'[{mod['full_name']}] skipping mod')
+        if meta == None:
+            print(f'[{mod['full_name']}] skipping mod (reason: no meta file)')
+            return None
+        
+        if meta.get('hideBrowser', False):
+            print(f'[{mod['full_name']}] skipping mod (reason: hidded)')
+            return None
+        
+        if not float(meta.get('minGameVersion', 0)) >= 136.0:
+            print(f'[{mod['full_name']}] skipping mod (reason: wrong min game version)')
             return None
         
         if process_image(mod['full_name'], mod['default_branch']) == None:
-            print(f'[{mod['full_name']}] skipping mod')
+            print(f'[{mod['full_name']}] skipping mod (reason: no icon)')
             return None
 
         readme = tryList([
@@ -189,9 +197,10 @@ async def process_mods():
 
     while True:
         res = query("/search/repositories", { "q": f"topic:{topic} archived:false template:false pushed:>={lastPushDate}", "per_page": perPage, "page": page, "sort": "updated" })
-        totalPages = math.ceil(res['total_count'] / perPage) - 1
+        totalPages = min(math.ceil(res['total_count'] / perPage) - 1, 10)
         mods = res['items']
 
+        print(totalPages)
         print(f'[{int(page/totalPages*100)}%] [page {page}] quering page...')
 
         mods = [mod for mod in mods if not mod['full_name'].startswith(nameBlacklist)]
