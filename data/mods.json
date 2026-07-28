@@ -93,7 +93,7 @@
         "body": "<div align = center>\n\n<br>\n\n![Logo]\n<br> <br>\n[![Badge Commit]][Commits] <br>\n[![Badge Discord]][Discord]\n[![Badge Issues]][Issues] <br>\n\n<br>\n<br>\n\n### A large campaign mod that adds a new planet, Asthosus. <br>\n### Asthosus is a desert planet with harsh conditions <br>\n### that will test you in all sorts of ways.\n<br>\n<br>\n\n### Logistics is everything on this planet. \n<br>\n<br>\n\n### Asthosus reuses nearly no vanilla content. \n<br>\n<br>\n\n## Overview\n</div>\n\n- Over 180 pieces of unique and fresh content, including blocks, units, items and more!\n- 11 non-optional campaign sectors. Capture this planet for yourself!\n- 21 optional sectors, providing more playtime and new challenges.\n- 4 full-fledged unit trees all complete with unique units.\n<br>\n<br>\n\n<div align = center>\n  \n## Mechanics\n</div>\n\n- Power on Asthosus is transfered through wires that have to directly connect.\n- Units are created in Erekir-Style assemblers. \n- Utilize Pressure for countless appliances.\n- Gather resources in different ways.\n  - Some resources are gathered Erekir-Style while others are gathered Serpulo-Style.\n- Find out about the history of Asthosus by reading through Memorial Recordings recieved after capturing a sector.\n<br>\n<br>\n\n<div align = center>\n\n## Languages\n</div>\n\nAsthosus is available in multiple languages!\n\n- English\n- German\n- Russian\n- Traditional Chinese\n- Ukrainian\n- Indonesian\n<br>\n<br>\n\n<div align = center>\n\n## Music\n</div>\n\nThis mod comes with it's own original music, <br>\ncustom-made for Asthosus! <br>\nMusic by @ThePythonGuy3\n<br>\n<br>\n\n<div align = center>\n\n## Contributors\n</div>\nMaking a mod like this would not be possible without help.\n\n<br> <br>\nCheck the Contributors in the Discord server <br> if you wish to know more.\n\n<div align = center>\n  \n![Banner]\n\n<!----------------------------------[ Badges ]--------------------------------->\n\n[Badge Discord]: https://img.shields.io/discord/1119997279651233822?style=for-the-badge&label=Discord%20(Click%20Me!)\n[Badge Commit]: https://img.shields.io/github/last-commit/Catana791/asthosus?style=for-the-badge&label=Last%20Commit\n[Badge Issues]: https://img.shields.io/github/issues/Catana791/asthosus?style=for-the-badge\n<!----------------------------------[ Links ]--------------------------------->\n[Logo]: github/logo.png\n[Banner]: github/banner.jpg\n[Discord]: https://discord.gg/fde2vqaS6p\n[Commits]: https://github.com/Catana791/asthosus/commits/main\n[Issues]: https://github.com/Catana791/asthosus/issues\n",
         "downloads": 0,
         "created_at": "2023-05-14T12:31:46Z",
-        "updated_at": "2026-07-27T12:41:20Z"
+        "updated_at": "2026-07-28T15:13:47Z"
     },
     {
         "id": "allure",
@@ -429,7 +429,7 @@
         "body": "# Exoprosopa V0.9: Pre-Finalize Update\r\n<div align = center>\r\n\r\n<br>\r\n\r\n![Logo]\r\n<br> <br>\r\n[![Badge Commit]][Commits] <br>\r\n[![Badge Discord]][Discord] <br>\r\n</p>\r\n\r\n  ### Exoprosopa adds Frostnova planet into the game\r\n  ### alongside with its own unique techtree and environment.<br>\r\n<br>\r\n<br>\r\n\r\n## Overview\r\n</div>\r\n\r\n- Polished content & linear campaign progression.<br>\r\n- Capture and conquer with over 24 campaign maps.<br>\r\n- Over 21 items to be discovered, 188 blocks to be researched. and 20 different units to build!<br>\r\n- Harvest the planet with your technology before Astral Infection awaken and conquer the entire planet.\r\n\r\n<div align = center>\r\n\r\n## Contributors\r\n</div>\r\nThankyou for playing this mod!<br>\r\nYou can contributes maps or gives suggestions by join Exoprosopa Discord Server!<br>\r\nCheck it on my profile. My username is RennTanami.<br><br>\r\n<br>\r\n\r\n<div align = center>\r\n\r\n## Changelogs - V0.9 Pre-Finalize Udpate\r\n</div>\r\n\r\n- Campaign Sectors [onGoing]:\r\n  - Crest [Remake - onGoing]\r\n  - Waterfall ☑\r\n  - Antarstars [WIP]\r\n  - Metropolis [WIP]\r\n  - Isolated Canyon [ need replacement ]\r\n  - Eridanus [ need replacement ]\r\n- Campaign Sectors [TODO]:\r\n  - Alpha Frontier\r\n  - Highlands [WIP]\r\n  - Horizon's Edge\r\n  - Tundra Peaks\r\n  - Sunken Farmfields\r\n- Optional Map: \r\n  - Clover Springs ☑\r\n  - Myrra Heights [WIP] ☑\r\n  - Ridgeline\r\n  - Aeroplex Fort [Broken]\r\n  - Novaris Facility\r\n  - Tridantel\r\n- Upcoming:\r\n  - Military Junkyard [WIP]\r\n  - Polarstation [WIP]\r\n- Added New Blocks:\r\n  - Cryogenics Synthetis Chamber\r\n  - Nucrid Scrapper\r\n  - Hybrid Reactor\r\n  - Heavy Ichor Infuser\r\n  - Large Material Disassembler\r\n  - Large Block Fabricator\r\n  - Hoverducts\r\n  - Prime Regenerator\r\n  - Technoworks\r\n  - Sunlit Heater\r\n  - Underflow Gate\r\n  - Large Surge Launher\r\n- Added T5 Walker & Mech - Program & Monarch\r\n- Tiny Details for Tantra Floor Edges\r\n- New Ammunition\r\n  - Petal Fragment Torrefy\r\n  - Lamine Shellcore - Torrefy - Earthmover\r\n  - Gravitix Deprive\r\n  - Clevorite Anvil\r\n- Added Canvas\r\n- Adjusting Tech Tree with New Enchantment Tech\r\n- Re-Sprite\r\n  - Powerline & Powerbeam\r\n  - Morphite SolarPanel\r\n  - Build Tower\r\n- Clevorite & Bloodstone Research Pacing\r\n- All Tier 3 & 4 Units Balancing\r\n- Sectors Organizing + Reverts Wproc Weather\r\n<br>\r\n\r\n![Banner]\r\n\r\n<!----------------------------------[ Badges ]--------------------------------->\r\n\r\n[Badge Discord]: https://img.shields.io/badge/Discord_Community-Join-2ea44f?logo=discord&color=5865F2&style=for-the-badge\r\n[Badge Commit]: https://img.shields.io/github/last-commit/TnmSpiroct/exoprosopa?color=8eceec&style=for-the-badge&label=Last%20Commit\r\n<!----------------------------------[ Links ]--------------------------------->\r\n[Logo]: sprites-override/ui/logo.png\r\n[Banner]: banner-new.png\r\n[Discord]: https://discord.gg/GyxBXYrpNC\r\n[Commits]: https://github.com/TnmSpiroct/exoprosopa/commits/main\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
         "downloads": 0,
         "created_at": "2025-02-12T11:25:22Z",
-        "updated_at": "2026-07-28T12:43:44Z"
+        "updated_at": "2026-07-28T15:31:55Z"
     },
     {
         "id": "testing-utilities-java",
@@ -1019,7 +1019,7 @@
         "body": "<div align = center>\n\n![top]\n# Gier Revitalized\n## !This mod might be incompatiable with other mods!\n<br>\n\n### Gier Revitalized is intended to bring back this asteroid sector, but within my concept.<br></div>\n### Such as:</div>\n- Being Endless\n- Randomly Generated\n- And also including many modded blocks\n- Also has IOS support for some reason\n- Or play on kela with pre-made challange maps\n<div align = center>\n\n## Though expect: </div>\n- Unfair Generation (Bound to happen)\n- Constant Updating (This mod updates frequently but most are small)\n\n<div align = center>\n<br>\n<br>\n\n## Gameplays\n<br>\n<br>\n\n![gp1]\n\n<br>\n<br>\n\n![gp2]\n\n[top]: top.png\n[Icon]: icon.png\n[gp1]: gameplay-1.png\n[gp2]: gameplay-2.png\n",
         "downloads": 184,
         "created_at": "2026-02-09T05:30:57Z",
-        "updated_at": "2026-07-28T05:58:51Z",
+        "updated_at": "2026-07-28T15:06:50Z",
         "iosCompatible": true
     },
     {
@@ -1482,7 +1482,7 @@
         "body": "# Vanilla Expansion\n## INFO\nA Json mod with a few Java contents, extends Serpulo's story and campaign with 4 new planets and their own contents.\\\n\\\nIn this mod, Crux left Serpulo after completing the mega base, leaving only a set of automatic managing and defending system. Players will continute to play a role as Sharded, the one just revived at Ground Zero, to vanquish Serpulo and chase Crux until eventually defeating it.\n## GITHUB LINKS\nThis mod [here](https://github.com/Martian238/Vanilla-Expansion-Mod).\\\nIt also can be seen on the mod browser and Discord.\\\n\\\nAddon: schematics [here](https://github.com/momiji142857/ve-addon-schematics).\\\nAn optional schematics pack made by Momiji142857.\\\nSome useful schematics can be found inside.\\\n\\\nAddon: MomijiAdd [here](https://github.com/momiji142857/ve-addon-momijiadd).\\\nAn optional supportive addon made by Momiji142857.\\\nNew buildings included.\\\n\\\nMultiCraft Lib [here](https://github.com/ls-hdu/multi-crafter-lib).\\\nA Java multicrafter library made by Ls.\\\nThere are also other new Java-typed blocks.\\\n\\\nProximaCentauri [here](https://github.com/128OTEML/ProximaCentauri)\\\nA Java mod made by 128_OTEML.\\\nIt had been merged into this one as a Java extension.\\\n\\\nOriginal Java architecture [here](https://github.com/Anuken/MindustryKotlinModTemplate).\\\nThe reorganized Java architecture made by 128_OTEML.\\\nBefore that, the mod's architecture was a bit buggy.\n## FAQ\nWhen you spot an issue or get puzzled, before asking for help, please check the mod version and make sure it's the newest one.\\\nAlso, remember to check descriptions, world messages and tutorial maps on Phoon.\n### How to start the new campaign?\nNew campaign sectors will be unlocked after capturing Planetary Launch Terminal and researching Interplanetary Accelerator.\n### How to launch to the next sector?\nThere are messages placed in the first sectors.\\\nGo to any sandbox map and save the core you need as a launch schematic. Then, back to the sector and select the schematic to launch.\\\nIn Barrier Hill, it's Isomorphic Core: Shard. In Melon Onset, it's Core: General. Do not just save a Core: Nucleus as the schematic since there's really no way to build it in those sectors.\n### Will there be more Erekir content in the future?\nNo. I just wanted to add that duct junction.\n### Are Maress and Sitrullus unfinished?\nThat's true. They are not finished yet.\\\nMore contents will be added in the future.\n### How to play tutorial or community maps?\nThe first sector of Phoon, a Cyclant's satellite, called Community Entrance. It gets unlocked after capturing Volcanic Flats on Cyclant.\\\nGo there and fill resources with item sources in order to launch to a tutorial or community map.\n## OTHER QUESTIONS\n### Does this mod conflict with others?\nIf \"conflicting\" means crashing the game, it sometimes does due to out of memory or something.\\\nIf it means modification of vanilla contents, it usually does. Lots of Serpulo units are modified but they actually don't have a large difference with their vanilla version. But it will overwrite other mods' modification.\n### Are some of the contents originally from other games?\nYes. Almost all sound effects are from other games which I used to play in my childhood. And a few other things have their phototypes.\\\nFor example, Zentack's phototype is a boss from LittleBigPlanet 2. I always wanted to copy this boss with Scratch or something else, just because I thought it was cool. And now, with such techniques, I could finally achieve my old goal and lots of simliar ideas by modding in Mindustry.\\\nAnyway, I will certainly NOT going to say \"they are my original ideas\". That's too evil.\n\n",
         "downloads": 5705,
         "created_at": "2026-03-08T15:46:51Z",
-        "updated_at": "2026-07-28T12:19:47Z"
+        "updated_at": "2026-07-28T15:01:41Z"
     },
     {
         "id": "epsilon",
@@ -3870,7 +3870,7 @@
         "body": "- mod còn lỏd lắm nha :> nhưng mong mọi người trải nghiệm và nêu ý kiến để tui cải thiện.\n\n\n\n-------------------------------------------\n> Điều chỉnh cân bằng bản 0.4.0:\n+ Pháo Xylaon: \n  - đạn thêm hiệu ứng xuyên mục tiêu: 3.\n  - đạn thêm hiệu ứng truy đuổi nhẹ.\n  - tăng số lượng vật phẩm pháo chứa: 300.\n\n\n\n-------------------------------------------\n> Điều chỉnh cân bằng bản 0.4.4:\n+ Pháo Rangtaturs:\n  - Tăng phạm vi bắn: 176 > 352.\n  - Tăng độ dài của laser: 120 > 240.\n  - Giảm sát thương đạn của tất cả cấp độ xuống 1.\n\n\n\n-------------------------------------------\n> Điều chỉnh cân bằng bản 0.4.6:\n+ Pháo Blaw, Blixalum và Tyber sẽ giới hạn xây là 1.\n\n\n\n-------------------------------------------\n> Điều chỉnh cân bằng bản 0.4.7:\n+ Pháo Vendicum:\n  - Nhánh MK2B phần giảm sát thương đổi lại thành tăng sát thương 22 > 122 (+173%).\n\n\n\n-------------------------------------------\n> Điều chỉnh cân bằng bản 0.5.2:\n+ Pháo Vendicum sẽ giới hạn xây là 1.\n\n\n\n-------------------------------------------\n> Điều chỉnh cân bằng bản 0.5.3:\n+ Pháo Lavunder:\n  - sẽ giới hạn xây là 1.\n Cấp 1: MK1 (Cơ bản)\n  - Sát thương cơ bản: 33 ST/giây. > 112 ST/giây.\n  - Đạt 100 Sạc (Explosion):\n    + Bộc phá diện rộng bán kính 40 px. > 60 px. \n    + Gây 100 ST flat + 1% HP tối đa của mục tiêu. > 1000 ST flat.\n Cấp 2: MK2 (Xung lực Hỏa lực Liên hoàn)\n  - Tốc độ sạc: Tăng nhanh hơn 1.8x so với MK1. > 3.8x so vói MK1.\n  -Gây 320 ST flat + 2% HP tối đa diện rộng (bán kính 40 px). > Gây 3200 ST flat.\n\n\n\n-------------------------------------------\n> Điều chỉnh cân bằng bản 0.5.6:\n- Xóa bỏ cơ chế giới hạn đặt tháp pháo.",
         "downloads": 0,
         "created_at": "2026-06-25T10:01:46Z",
-        "updated_at": "2026-07-28T05:33:51Z"
+        "updated_at": "2026-07-28T14:35:31Z"
     },
     {
         "id": "erekir-cargo-drone-for-serpulo",
@@ -5726,22 +5726,6 @@
         "updated_at": "2026-07-19T04:15:26Z"
     },
     {
-        "id": "era.dark",
-        "name": "ERA.Dark",
-        "repo": "lllIIIlII/ERA.Dark",
-        "branch": "main",
-        "author": "lllIIIlII",
-        "stars": 3,
-        "min_game_version": "150",
-        "has_scripts": true,
-        "has_java": false,
-        "description": "ERA.Dark [gold]QQ:526675268",
-        "body": "# ERA.Dark\n\n此为 The Dark Age 的优化版本，勿与 The Dark Age 同时使用\nThis is an optimised version of The Dark Age, don’t use it at the same time as The Dark Age\n\n——————特别鸣谢——————\n    €₫₥ align\n    CN方柠檬FNM\n    泰拉\n    火星人076\n    是魚非彼鱼\n",
-        "downloads": 0,
-        "created_at": "2026-07-20T07:38:30Z",
-        "updated_at": "2026-07-20T11:58:46Z"
-    },
-    {
         "id": "mindustry-sondustry",
         "name": "mindustry-sondustry",
         "repo": "Wantechfan/mindustry-sondustry",
@@ -5851,6 +5835,38 @@
         "downloads": 0,
         "created_at": "2023-02-17T02:56:24Z",
         "updated_at": "2026-07-28T12:55:33Z"
+    },
+    {
+        "id": "logicsugar",
+        "name": "LogicSugar",
+        "repo": "DeterMination-Wind/LogicSugar",
+        "branch": "main",
+        "author": "DeterMination-Wind",
+        "stars": 3,
+        "min_game_version": "155",
+        "has_scripts": false,
+        "has_java": true,
+        "description": "Adds structured for, while, and switch blocks to the logic editor while storing vanilla-compatible mlog.",
+        "body": "# Logic Sugar\n\n[中文](README_zh.md) | [English](README.md)\n\n<p align=\"center\"><img src=\"assets/LOGO.jpg\" width=\"500\" alt=\"Logic Sugar Logo\"></p>\n\nA Mindustry mod that adds structured programming control flow — `for`, `while`, `switch`, and `break` — to the logic editor, along with jump-line coloring, box-select batch operations, and an expression editor. Everything compiles to vanilla-compatible `mlog`.\n\n## Features\n\n### Structured Statements\n\nWrite readable loops and branches inside the logic processor. These compile to standard `jump`/`op` instructions — players without the mod see normal vanilla logic.\n\n<details>\n<summary><b>for</b> — loop with initializer, step, and end condition</summary>\n\n```\nfor i = 0; i < 10; i += 2\n  ...\nend\n```\n</details>\n\n<details>\n<summary><b>while</b> — conditional loop</summary>\n\n```\nwhile signal == 1\n  ...\nend\n```\n</details>\n\n<details>\n<summary><b>switch</b> — multi-branch selection</summary>\n\n```\nswitch state\n  case 0\n    ...\n    break\n  case 1\n    ...\n    break\nend\n```\n</details>\n\n- Auto-indentation, folding, and structural guidelines\n- Errors are preserved in-editor for easy fixing\n\n### Jump Line Coloring\n\nColorizes `jump` curves by target so different branches are visually distinguishable. Toggle via in-game mod settings.\n\n- **Off**: all lines white (vanilla)\n- **Scattered**: golden-angle HSV color per target index\n- **Block-tinted**: target block's category color, brightened 1.4×\n\n### Box Select & Batch Operations\n\nSelect, move, copy, and delete logic blocks in bulk.\n\n- Drag on empty canvas to box-select; **blue** = move, **green** = copy (toggle via the copy icon on selected blocks)\n- `Ctrl` + click → copy-drag a single block; `Delete`/`Backspace` → delete selected; Right-click/`Esc` → cancel\n- After selection, buttons on selected blocks become batch ops: trash → delete all, `+` → duplicate, copy icon → toggle mode\n\n### Expression Editor (`Expr` block)\n\nWrite math expressions that compile to `op` chains, and fold `op` chains back into readable expressions.\n\n**Compile**: `result = cos(a) * 10 + x` →\n\n```\nop cos _0 a 0\nop mul _0 _0 10\nop add x _0 x\n```\n\n- **Fold**: opening the editor folds consecutive `op` chains back into expression form\n- **Save**: expressions unfold to standard `op` instructions — vanilla-compatible\n- **Syntax highlighting**: numbers (gold), functions (coral), variables (white), operators (light gray)\n- **Error reporting**: syntax errors shown in red beneath the expression with the specific reason\n\n**Supported operators**\n\n| Category | Operators |\n|---|---|\n| Unary functions | `not abs sign log log10 floor ceil round sqrt rand sin cos tan asin acos atan` |\n| Binary functions | `max(a,b) min(a,b) angle(a,b) angleDiff(a,b) len(a,b) noise(a,b) logn(a,b)` |\n| Logical | `\\|\\|` `&&` ` xor ` |\n| Equality | `==` `!=` `===` `<` `>` `<=` `>=` |\n| Bitwise | `&` `<<` `>>` `>>>` |\n| Arithmetic | `+` `-` `*` `/` `//` `%` `%%` `^` |\n\n### Scrollbar Enhancement\n\nColored scrollbar (each segment tinted by its block's category color), click-to-jump, and hover-jump preview.\n\n## Build\n\n```\ngradlew deploy\n```\n\nOutput: `build/libs/LogicSugar.jar` (universal JAR for both desktop and Android). Drop into Mindustry's `mods/` folder.\n\n## Acknowledgements\n\n- [logic-assist](https://github.com/nosbhghggg/logic-assist) — foundation for jump-line coloring, box-select, and expression editor features\n- [MI2-utilities](https://github.com/BlackDeluxeCat/MI2-Utilities-Java) — drag-move and jump-index translation logic\n- [mindcode](https://github.com/cardillan/mindcode) — op-chain decompilation, operator classification, optimization rules\n- [MindustryX](https://github.com/TinyLake/MindustryX/) — JUMP button reference\n\n## License\n\nGPL-3.0-or-later. See [LICENSE](LICENSE).",
+        "downloads": 28,
+        "created_at": "2026-07-26T17:45:06Z",
+        "updated_at": "2026-07-28T15:03:01Z"
+    },
+    {
+        "id": "era.dark",
+        "name": "ERA.Dark",
+        "repo": "lllIIIlII/ERA.Dark",
+        "branch": "main",
+        "author": "lllIIIlII",
+        "stars": 3,
+        "min_game_version": "150",
+        "has_scripts": true,
+        "has_java": false,
+        "description": "ERA.Dark [gold]QQ:526675268",
+        "body": "# ERA.Dark 1.0.6.0\n\n前言：ERA.Dark 作为TheDarkAge的第二代，更适合配置较差与喜欢工业的玩家。\n注意，不要与TheDarkAge同时加载，可能会有意想不到的bug\n\n\n<---待开发炮台--->\n*流光*\n*星火*\n\n<---待开发新物品--->\n*不锈钢*  (2钢，2铬)\n*HTS-1800 炽固合金* (1钢，2镍，2钼，1钨)\n*ARC-8.6 硬质合金* （1铬，3镍，1铜，1钛，1金属粉末）\n*FXS 泛用型合金*  (2铬，2钴，2钛，1铁，1金属粉末)\n\n<---待开发新液气--->\n*氮*\n*氯*\n*水蒸气*\n*硝酸*\n*酸蒸汽*\n*工业废水*（排放有害）\n\n<---已开发--->\n*金刚砂*\n*磨砂金属粉末*\n*铬*\n*锰*\n*锰钢*\n*殷瓦钢*\n\n\n<---已有原料--->\n*铜*\n*铍*\n*铅*\n*煤*\n*钛*\n*沙子*\n*废料*\n*钍*\n*铁*\n*钴*\n*镍*\n*钼*\n*钨*\n*铀*\n*水*\n*石油*\n*氢*\n\n<---已有工业制品--->\n*石墨*\n*硅*\n*硫*\n*工业爆炸物*\n*孢子*\n*玻璃*\n*相织布*\n*塑钢*\n*钢*\n*钴钢*\n*结构钢*\n*巨浪合金*\n*镍铜合金*\n*冷冻液*\n*矿渣液*\n*润滑剂* \n\n——————特别鸣谢——————\n    €₫₥ align\n    CN方柠檬FNM\n    泰拉\n    火星人076\n    是魚非彼鱼\n",
+        "downloads": 0,
+        "created_at": "2026-07-20T07:38:30Z",
+        "updated_at": "2026-07-28T15:17:41Z"
     },
     {
         "id": "ethereal-tech",
@@ -8826,21 +8842,6 @@
         "updated_at": "2026-07-25T09:47:15Z"
     },
     {
-        "id": "sporbels-inventions",
-        "name": "SporBels-Inventions",
-        "repo": "leBropS/SporBels-Inventions",
-        "branch": "main",
-        "author": "leBropS",
-        "stars": 1,
-        "min_game_version": "152",
-        "has_scripts": false,
-        "has_java": false,
-        "description": "Adds many things for Serpulo like for example aircraft or nuclear technology! Highly ambitious project.",
-        "downloads": 0,
-        "created_at": "2026-06-23T13:19:26Z",
-        "updated_at": "2026-07-25T12:29:54Z"
-    },
-    {
         "id": "silviriumjava",
         "name": "SilviriumJava",
         "repo": "m-e-l-i-s/SilviriumJava",
@@ -8904,6 +8905,21 @@
         "updated_at": "2026-07-28T03:54:31Z"
     },
     {
+        "id": "sporbels-inventions",
+        "name": "SporBels-Inventions",
+        "repo": "leBropS/SporBels-Inventions",
+        "branch": "main",
+        "author": "leBropS",
+        "stars": 1,
+        "min_game_version": "152",
+        "has_scripts": false,
+        "has_java": false,
+        "description": "Adds many things for Serpulo like for example aircraft or nuclear technology! Highly ambitious project.",
+        "downloads": 0,
+        "created_at": "2026-06-23T13:19:26Z",
+        "updated_at": "2026-07-28T14:04:43Z"
+    },
+    {
         "id": "challenge-additions",
         "name": "challenge-additions",
         "repo": "Chax0180/challenge-additions",
@@ -8916,7 +8932,7 @@
         "description": "Initially added a small set of blocks to make challenge maps more interesting, but has stepped up to go beyond just that. Features several new and unique additions, such as specialist air and naval units.",
         "downloads": 0,
         "created_at": "2026-04-20T15:06:52Z",
-        "updated_at": "2026-07-28T07:26:35Z"
+        "updated_at": "2026-07-28T15:58:57Z"
     },
     {
         "id": "oldserpulolaunchcapacity",
