@@ -3106,7 +3106,7 @@
         "body": "# Alef Null\nэто математический мод на миндастри, который добавляет планеты (пока только 1 с двумя секторами) по математике и много соответствуещего контента.\n\n## Планирование:\nв моде будет:\n- арифметика: там теория множеств и основа (уже в моде)\n- алгебра: это переменные и функции \n- геометрия: линии и формы\n- тригонометрия: π и всякие синусы\n- математический анализ: прочие тапки\n- (на самом деле я просто слишком много хочу)\n\n## связь\n[Это Дискорд](https://discord.gg/99CxfHYtFh) (I don't speak English!)\n\n## разработчики:\n- Кселирит (oscillatorium) - автор мода\n- Чмоня (dimon112) - добавил кусок джава скрипта\n- Пуня (HamsterHat) - всё по чуть-чуть (идеи, джава скрипт, хджсон). У него также есть похожий мод про кодинг в котором я (Кселирит) помогаю (называется world-of-dights)",
         "downloads": 15,
         "created_at": "2026-05-08T18:29:56Z",
-        "updated_at": "2026-07-28T11:18:33Z"
+        "updated_at": "2026-07-28T19:10:20Z"
     },
     {
         "id": "blastanium",
@@ -8905,21 +8905,6 @@
         "updated_at": "2026-07-28T03:54:31Z"
     },
     {
-        "id": "sporbels-inventions",
-        "name": "SporBels-Inventions",
-        "repo": "leBropS/SporBels-Inventions",
-        "branch": "main",
-        "author": "leBropS",
-        "stars": 1,
-        "min_game_version": "152",
-        "has_scripts": false,
-        "has_java": false,
-        "description": "Adds many things for Serpulo like for example aircraft or nuclear technology! Highly ambitious project.",
-        "downloads": 0,
-        "created_at": "2026-06-23T13:19:26Z",
-        "updated_at": "2026-07-28T14:04:43Z"
-    },
-    {
         "id": "challenge-additions",
         "name": "challenge-additions",
         "repo": "Chax0180/challenge-additions",
@@ -8933,6 +8918,21 @@
         "downloads": 0,
         "created_at": "2026-04-20T15:06:52Z",
         "updated_at": "2026-07-28T17:33:38Z"
+    },
+    {
+        "id": "sporbels-inventions",
+        "name": "SporBels-Inventions",
+        "repo": "leBropS/SporBels-Inventions",
+        "branch": "main",
+        "author": "leBropS",
+        "stars": 1,
+        "min_game_version": "152",
+        "has_scripts": false,
+        "has_java": false,
+        "description": "Adds many things for Serpulo like for example aircraft or nuclear technology! Highly ambitious project.",
+        "downloads": 0,
+        "created_at": "2026-06-23T13:19:26Z",
+        "updated_at": "2026-07-28T18:35:10Z"
     },
     {
         "id": "oldserpulolaunchcapacity",
