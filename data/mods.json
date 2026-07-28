@@ -574,7 +574,23 @@
         "body": "# AZIMUTH 0.5: Is coming...\n\n\n\n\n<h2 align=\"center\"><img width=\"640\" height=\"320\" alt=\"logo\" src=\"sprites-override/ui/logo.png\" /></h2>\n\n<hr>\n\n[![Discord Community](https://img.shields.io/badge/Discord_Community-JOIN-5865F2?logo=discord)](https://discord.gg/gyCfsa3kbf)\n\n<h3 align=\"center\">Azimuth adds a brand-new planet along with its own solar system and tech tree.\nThe planet is called Gelion.</h3>\n<hr>\n<h2 align=\"center\">On top of everything listed down below, the mod is still actively being updated, and each update will bring even more content and mechanics. (I WILL finish this mod. I’m serious.)</h2>\n<hr>\n<h3 align=\"center\">Overview</h3>\n<ul>\n  <li>Crush enemy forces and turn the planet into a resource hub for your faction.</li>\n  <li>Gradually branching gameplay and campaign progression.</li>\n  <li>Discover 12 items, 7 liquids, 12 units, and 85 blocks!</li>\n  <li>12 playable sectors to conquer.</li>\n</ul>\n<hr>\n<h3 align=\"center\">Features</h3>\n<ul>\n  <li>Multiblock structures and their variations</li>\n  <li>Unit gestators with multiple variants</li>\n  <li>Liquid-based energy system (with conversion into standard power)</li>\n  <li>Byte system and consumable research mechanics</li>\n  <li>Drone stations (shields, healing, buffs)</li>\n</ul>\n<hr>\n<h3 align=\"center\">Highlights</h3>\n<ul>\n  <li>Absolutely BRUTAL visual effects</li>\n  <li>Highly polished and visually stunning campaign maps</li>\n  <li>Every sprite (blocks & units) is higher quality than vanilla</li>\n  <li>Deep unit design: Each unit has unique abilities, mechanics, and a distinct concept</li>\n  <li>Complex production chains and conditions: A serious challenge for unprepared players</li>\n</ul>\n<hr>\n<h3 align=\"center\">Languages</h3>\n<ul>\n  <li>Russian (84% translated)</li>\n  <li>English (100% translated)</li>\n  <li>Want to add your language? Feel free to submit a Pull Request!</li>\n</ul>\n<hr>\n<h3 align=\"center\">Acknowledgments</h3>\n<ul>\n<li>Wow, dude, you played my mod? A HUGE thank you, I really appreciate it!</li>\n<li>Of course, you can also join my Azimuth Discord server, and you can suggest your ideas for implementation in the suggestions channel.</li>\n<li>Also, if you really enjoyed the mod, you can give a star on my GitHub (THANKS a lot!)</li>\n</ul>\n\n<h2 align=\"center\"><img width=\"2560\" height=\"1440\" alt=\"AZIMUTH-banner\" src=\"https://github.com/user-attachments/assets/74701dcc-b1be-4478-bcf3-74c2c95f55ff\" /></h2>\n",
         "downloads": 0,
         "created_at": "2025-02-14T15:56:25Z",
-        "updated_at": "2026-07-28T09:52:55Z"
+        "updated_at": "2026-07-28T16:32:48Z"
+    },
+    {
+        "id": "psammos-mod",
+        "name": "Psammos-Mod",
+        "repo": "Andromeda-Galaxy29/Psammos-Mod",
+        "branch": "main",
+        "author": "Andromeda-Galaxy29",
+        "stars": 47,
+        "min_game_version": 155.4,
+        "has_scripts": false,
+        "has_java": true,
+        "description": "Adds a new desert planet. Almost all life which once populated this planet was wiped out by a cataclysmic event known as the Incineration. Survive in these harsh conditions and conquer [accent[]]Psammos[white[]].\r\n\r\nJoin our discord server: [#5865f2[]]https://discord.gg/eBzANBKCBA[[]]\r\n\r\nIf you like the mod, consider giving it a star on GitHub. Thank you\r\n\r\n[#f1c40f[]]Team members:[[]]\r\n- [#6e7f96[]] Andromeda-Galaxy29[[]]\r\n- [#6e7f96[]] iRatzeyMezeri[[]]\r\n\r\n[#31fea7[]]Contributors:[[]]\r\n- [#5865f2[]] thisiscrimsoncheck[[]] - several maps, suggestions and other contributions\r\n- [#5865f2[]] tinport[[]] - various suggestions and maps\r\n- [#5865f2[]] mrapple_0[[]] - maps\r\n- [#5865f2[]] cirrusisakey[[]] - help with sfx\r\n- [#6e7f96[]] xhstoyea[[]] - Chinese translations\r\n\r\n[#9b59b6[]]Other thanks:[[]]\r\n- [#5865f2[]] chozochorizo[[]] for help with balancing the mod\r\n- [#6e7f96[]] ThomasThings[[]] and [#6e7f96[]] Twcash[[]] for the main menu title font\r\n\r\n[#abe2ca[]]Suggestors:[[]]\r\n- [#5865f2[]] nekoarkbruhagain_07111[[]]\r\n- [#5865f2[]] allayscrafter[[]]",
+        "body": " \r\n",
+        "downloads": 29471,
+        "created_at": "2023-12-14T17:32:05Z",
+        "updated_at": "2026-07-16T13:34:23Z"
     },
     {
         "id": "scheme-size-port",
@@ -590,22 +606,6 @@
         "downloads": 111609,
         "created_at": "2025-07-25T09:58:02Z",
         "updated_at": "2026-07-09T22:18:52Z"
-    },
-    {
-        "id": "psammos-mod",
-        "name": "Psammos-Mod",
-        "repo": "Andromeda-Galaxy29/Psammos-Mod",
-        "branch": "main",
-        "author": "Andromeda-Galaxy29",
-        "stars": 46,
-        "min_game_version": 155.4,
-        "has_scripts": false,
-        "has_java": true,
-        "description": "Adds a new desert planet. Almost all life which once populated this planet was wiped out by a cataclysmic event known as the Incineration. Survive in these harsh conditions and conquer [accent[]]Psammos[white[]].\r\n\r\nJoin our discord server: [#5865f2[]]https://discord.gg/eBzANBKCBA[[]]\r\n\r\nIf you like the mod, consider giving it a star on GitHub. Thank you\r\n\r\n[#f1c40f[]]Team members:[[]]\r\n- [#6e7f96[]] Andromeda-Galaxy29[[]]\r\n- [#6e7f96[]] iRatzeyMezeri[[]]\r\n\r\n[#31fea7[]]Contributors:[[]]\r\n- [#5865f2[]] thisiscrimsoncheck[[]] - several maps, suggestions and other contributions\r\n- [#5865f2[]] tinport[[]] - various suggestions and maps\r\n- [#5865f2[]] mrapple_0[[]] - maps\r\n- [#5865f2[]] cirrusisakey[[]] - help with sfx\r\n- [#6e7f96[]] xhstoyea[[]] - Chinese translations\r\n\r\n[#9b59b6[]]Other thanks:[[]]\r\n- [#5865f2[]] chozochorizo[[]] for help with balancing the mod\r\n- [#6e7f96[]] ThomasThings[[]] and [#6e7f96[]] Twcash[[]] for the main menu title font\r\n\r\n[#abe2ca[]]Suggestors:[[]]\r\n- [#5865f2[]] nekoarkbruhagain_07111[[]]\r\n- [#5865f2[]] allayscrafter[[]]",
-        "body": " \r\n",
-        "downloads": 29471,
-        "created_at": "2023-12-14T17:32:05Z",
-        "updated_at": "2026-07-16T13:34:23Z"
     },
     {
         "id": "azaria",
@@ -8932,7 +8932,7 @@
         "description": "Initially added a small set of blocks to make challenge maps more interesting, but has stepped up to go beyond just that. Features several new and unique additions, such as specialist air and naval units.",
         "downloads": 0,
         "created_at": "2026-04-20T15:06:52Z",
-        "updated_at": "2026-07-28T15:58:57Z"
+        "updated_at": "2026-07-28T17:33:38Z"
     },
     {
         "id": "oldserpulolaunchcapacity",
