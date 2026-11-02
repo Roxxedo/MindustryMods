@@ -181,8 +181,7 @@ def process_mod(mod, page, index, res):
         return body
     except Exception as e:
         print(f'[{mod['full_name']}] ERROR')
-        print(e)
-        raise
+        pass
 
 async def process_mod_limited(mod, page, index, res):
     async with sem:
