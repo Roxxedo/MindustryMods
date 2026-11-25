@@ -8,7 +8,7 @@
             {
                 "name": "Mindustry.jar",
                 "size": 88583367,
-                "download_count": 3414,
+                "download_count": 3595,
                 "download_url": "https://github.com/Anuken/Mindustry/releases/download/v160.8/Mindustry.jar",
                 "created_at": "2026-11-18T20:26:07Z",
                 "updated_at": "2026-11-18T20:26:09Z"
@@ -16,7 +16,7 @@
             {
                 "name": "server-release.jar",
                 "size": 19353710,
-                "download_count": 4338,
+                "download_count": 4472,
                 "download_url": "https://github.com/Anuken/Mindustry/releases/download/v160.8/server-release.jar",
                 "created_at": "2026-11-18T20:26:10Z",
                 "updated_at": "2026-11-18T20:26:11Z"
@@ -24,7 +24,7 @@
             {
                 "name": "dependencies.jar",
                 "size": 15344152,
-                "download_count": 380,
+                "download_count": 393,
                 "download_url": "https://github.com/Anuken/Mindustry/releases/download/v160.8/dependencies.jar",
                 "created_at": "2026-11-18T20:26:12Z",
                 "updated_at": "2026-11-18T20:26:13Z"
@@ -32,7 +32,7 @@
             {
                 "name": "assets.jar",
                 "size": 35388104,
-                "download_count": 1039,
+                "download_count": 1104,
                 "download_url": "https://github.com/Anuken/Mindustry/releases/download/v160.8/assets.jar",
                 "created_at": "2026-11-18T20:26:14Z",
                 "updated_at": "2026-11-18T20:26:16Z"
@@ -50,7 +50,7 @@
             {
                 "name": "Mindustry.jar",
                 "size": 88677884,
-                "download_count": 21903,
+                "download_count": 21916,
                 "download_url": "https://github.com/Anuken/Mindustry/releases/download/v160.7/Mindustry.jar",
                 "created_at": "2026-10-08T00:22:59Z",
                 "updated_at": "2026-10-08T00:23:02Z"
@@ -58,7 +58,7 @@
             {
                 "name": "server-release.jar",
                 "size": 19453000,
-                "download_count": 8246,
+                "download_count": 8255,
                 "download_url": "https://github.com/Anuken/Mindustry/releases/download/v160.7/server-release.jar",
                 "created_at": "2026-10-08T00:23:03Z",
                 "updated_at": "2026-10-08T00:23:05Z"
@@ -66,7 +66,7 @@
             {
                 "name": "dependencies.jar",
                 "size": 15442202,
-                "download_count": 4974,
+                "download_count": 4987,
                 "download_url": "https://github.com/Anuken/Mindustry/releases/download/v160.7/dependencies.jar",
                 "created_at": "2026-10-08T00:23:06Z",
                 "updated_at": "2026-10-08T00:23:07Z"
@@ -74,7 +74,7 @@
             {
                 "name": "assets.jar",
                 "size": 35390558,
-                "download_count": 2457,
+                "download_count": 2459,
                 "download_url": "https://github.com/Anuken/Mindustry/releases/download/v160.7/assets.jar",
                 "created_at": "2026-10-08T00:23:08Z",
                 "updated_at": "2026-10-08T00:23:10Z"
@@ -134,7 +134,7 @@
             {
                 "name": "Mindustry.jar",
                 "size": 88902250,
-                "download_count": 9956,
+                "download_count": 9958,
                 "download_url": "https://github.com/Anuken/Mindustry/releases/download/v160.5/Mindustry.jar",
                 "created_at": "2026-09-20T13:59:02Z",
                 "updated_at": "2026-09-20T13:59:06Z"
@@ -142,7 +142,7 @@
             {
                 "name": "server-release.jar",
                 "size": 19424950,
-                "download_count": 3417,
+                "download_count": 3418,
                 "download_url": "https://github.com/Anuken/Mindustry/releases/download/v160.5/server-release.jar",
                 "created_at": "2026-09-20T13:59:07Z",
                 "updated_at": "2026-09-20T13:59:08Z"
@@ -150,7 +150,7 @@
             {
                 "name": "dependencies.jar",
                 "size": 15413383,
-                "download_count": 2139,
+                "download_count": 2144,
                 "download_url": "https://github.com/Anuken/Mindustry/releases/download/v160.5/dependencies.jar",
                 "created_at": "2026-09-20T13:59:09Z",
                 "updated_at": "2026-09-20T13:59:10Z"
@@ -158,7 +158,7 @@
             {
                 "name": "assets.jar",
                 "size": 35610136,
-                "download_count": 1193,
+                "download_count": 1194,
                 "download_url": "https://github.com/Anuken/Mindustry/releases/download/v160.5/assets.jar",
                 "created_at": "2026-09-20T13:59:12Z",
                 "updated_at": "2026-09-20T13:59:13Z"
@@ -176,7 +176,7 @@
             {
                 "name": "Mindustry.jar",
                 "size": 87044493,
-                "download_count": 3543,
+                "download_count": 3544,
                 "download_url": "https://github.com/Anuken/Mindustry/releases/download/v160.4/Mindustry.jar",
                 "created_at": "2026-09-14T02:47:12Z",
                 "updated_at": "2026-09-14T02:47:15Z"
@@ -318,7 +318,7 @@
             {
                 "name": "dependencies.jar",
                 "size": 15404811,
-                "download_count": 1826,
+                "download_count": 1828,
                 "download_url": "https://github.com/Anuken/Mindustry/releases/download/v160.1/dependencies.jar",
                 "created_at": "2026-09-11T06:47:57Z",
                 "updated_at": "2026-09-11T06:47:59Z"
@@ -344,7 +344,7 @@
             {
                 "name": "Mindustry.jar",
                 "size": 87039071,
-                "download_count": 826,
+                "download_count": 833,
                 "download_url": "https://github.com/Anuken/Mindustry/releases/download/v160/Mindustry.jar",
                 "created_at": "2026-09-11T01:21:58Z",
                 "updated_at": "2026-09-11T01:22:01Z"
@@ -352,7 +352,7 @@
             {
                 "name": "server-release.jar",
                 "size": 19419288,
-                "download_count": 566,
+                "download_count": 568,
                 "download_url": "https://github.com/Anuken/Mindustry/releases/download/v160/server-release.jar",
                 "created_at": "2026-09-11T01:22:02Z",
                 "updated_at": "2026-09-11T01:22:03Z"
@@ -360,7 +360,7 @@
             {
                 "name": "dependencies.jar",
                 "size": 15402174,
-                "download_count": 6239,
+                "download_count": 6292,
                 "download_url": "https://github.com/Anuken/Mindustry/releases/download/v160/dependencies.jar",
                 "created_at": "2026-09-11T01:22:04Z",
                 "updated_at": "2026-09-11T01:22:05Z"
@@ -386,7 +386,7 @@
             {
                 "name": "Mindustry.jar",
                 "size": 86634761,
-                "download_count": 22691,
+                "download_count": 22693,
                 "download_url": "https://github.com/Anuken/Mindustry/releases/download/v159.7/Mindustry.jar",
                 "created_at": "2026-07-19T21:44:30Z",
                 "updated_at": "2026-07-19T21:44:34Z"
@@ -394,7 +394,7 @@
             {
                 "name": "server-release.jar",
                 "size": 19158443,
-                "download_count": 5421,
+                "download_count": 5423,
                 "download_url": "https://github.com/Anuken/Mindustry/releases/download/v159.7/server-release.jar",
                 "created_at": "2026-07-19T21:44:35Z",
                 "updated_at": "2026-07-19T21:44:36Z"
@@ -402,7 +402,7 @@
             {
                 "name": "dependencies.jar",
                 "size": 15255490,
-                "download_count": 9109,
+                "download_count": 9110,
                 "download_url": "https://github.com/Anuken/Mindustry/releases/download/v159.7/dependencies.jar",
                 "created_at": "2026-07-19T21:44:37Z",
                 "updated_at": "2026-07-19T21:44:38Z"
@@ -764,7 +764,7 @@
             {
                 "name": "Mindustry.jar",
                 "size": 84587299,
-                "download_count": 15357,
+                "download_count": 15358,
                 "download_url": "https://github.com/Anuken/Mindustry/releases/download/v157.4/Mindustry.jar",
                 "created_at": "2026-04-22T01:27:33Z",
                 "updated_at": "2026-04-22T01:27:37Z"
@@ -900,7 +900,7 @@
             {
                 "name": "dependencies.jar",
                 "size": 11622768,
-                "download_count": 5291,
+                "download_count": 5292,
                 "download_url": "https://github.com/Anuken/Mindustry/releases/download/v157/dependencies.jar",
                 "created_at": "2026-04-09T02:00:49Z",
                 "updated_at": "2026-04-09T02:01:11Z"
@@ -1226,7 +1226,7 @@
             {
                 "name": "Mindustry.jar",
                 "size": 79789816,
-                "download_count": 2677,
+                "download_count": 2679,
                 "download_url": "https://github.com/Anuken/Mindustry/releases/download/v154/Mindustry.jar",
                 "created_at": "2025-12-16T23:05:40Z",
                 "updated_at": "2025-12-16T23:05:42Z"
@@ -1234,7 +1234,7 @@
             {
                 "name": "server-release.jar",
                 "size": 13943370,
-                "download_count": 533,
+                "download_count": 534,
                 "download_url": "https://github.com/Anuken/Mindustry/releases/download/v154/server-release.jar",
                 "created_at": "2025-12-16T23:05:43Z",
                 "updated_at": "2025-12-16T23:05:44Z"
@@ -1434,7 +1434,7 @@
             {
                 "name": "Mindustry.jar",
                 "size": 73073317,
-                "download_count": 2849,
+                "download_count": 2850,
                 "download_url": "https://github.com/Anuken/Mindustry/releases/download/v150/Mindustry.jar",
                 "created_at": "2025-07-23T19:22:14Z",
                 "updated_at": "2025-07-23T19:22:16Z"
@@ -1564,7 +1564,7 @@
             {
                 "name": "Mindustry.jar",
                 "size": 72939318,
-                "download_count": 120013,
+                "download_count": 120014,
                 "download_url": "https://github.com/Anuken/Mindustry/releases/download/v146/Mindustry.jar",
                 "created_at": "2023-09-04T03:55:56Z",
                 "updated_at": "2023-09-04T03:56:08Z"
@@ -1572,7 +1572,7 @@
             {
                 "name": "server-release.jar",
                 "size": 9633782,
-                "download_count": 31843,
+                "download_count": 31846,
                 "download_url": "https://github.com/Anuken/Mindustry/releases/download/v146/server-release.jar",
                 "created_at": "2024-07-18T17:23:29Z",
                 "updated_at": "2024-07-18T17:23:32Z"
@@ -1616,7 +1616,7 @@
             {
                 "name": "Mindustry.jar",
                 "size": 72954870,
-                "download_count": 6512,
+                "download_count": 6513,
                 "download_url": "https://github.com/Anuken/Mindustry/releases/download/v145/Mindustry.jar",
                 "created_at": "2023-06-17T22:03:21Z",
                 "updated_at": "2023-06-17T22:03:23Z"
